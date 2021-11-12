@@ -1,4 +1,4 @@
-package com.newagedevs.bdbusroutie
+package com.newagedevs.bd_bus_route
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

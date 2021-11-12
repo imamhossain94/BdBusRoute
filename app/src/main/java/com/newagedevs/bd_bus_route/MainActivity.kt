@@ -1,4 +1,4 @@
-package com.newagedevs.bdbusroutie
+package com.newagedevs.bd_bus_route
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
