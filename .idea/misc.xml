@@ -3,9 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/drawable/logo_shopping_bag.xml" value="0.140625" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/activity_app_base.xml" value="0.259375" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/activity_main.xml" value="0.259375" />
-        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/activity_splash_screen.xml" value="0.12447916666666667" />
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/activity_splash_screen.xml" value="0.176" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/dialogue_loading.xml" value="0.259375" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_account.xml" value="0.4" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_bag.xml" value="0.259375" />

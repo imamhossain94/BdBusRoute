@@ -6,6 +6,7 @@
     <string name="wish_list">Wish list</string>
     <string name="my_bag">My Bag</string>
     <string name="account">Account</string>
+    <string name="bd_bus_route">BD BUS ROUTE</string>
 
     <string-array name="country_code">
         <item>+88</item>
