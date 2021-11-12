@@ -18,9 +18,6 @@ import android.widget.Toast
 import androidx.annotation.LayoutRes
 import com.google.gson.GsonBuilder
 import com.newagedevs.bdbusroute.R
-import com.newagedevs.bdbusroute.api.models.Category
-import com.newagedevs.bdbusroute.api.models.Slider
-import com.newagedevs.bdbusroute.api.models.product.Item
 import es.dmoral.toasty.Toasty
 import java.lang.reflect.Type
 
@@ -61,11 +58,11 @@ fun <T> outputRes(body:String, type: Type):T {
     return GsonBuilder().create().fromJson(body, type)
 }
 
-fun String.replace(vararg replacements: Pair<String, String>): String {
-    var result = this
-    replacements.forEach { (l, r) -> result = result.replace(l, r) }
-    return result
-}
+//fun String.replace(vararg replacements: Pair<String, String>): String {
+//    var result = this
+//    replacements.forEach { (l, r) -> result = result.replace(l, r) }
+//    return result
+//}
 
 fun View.getActivity(): Activity? {
     var context = this.context

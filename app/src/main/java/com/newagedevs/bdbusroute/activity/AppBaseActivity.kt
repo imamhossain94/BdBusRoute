@@ -6,21 +6,11 @@ import android.os.Build
 import android.os.Bundle
 import android.view.Gravity
 import android.view.View
-import androidx.annotation.RequiresApi
-import androidx.appcompat.app.AppCompatActivity
-import androidx.drawerlayout.widget.DrawerLayout
-import androidx.fragment.app.Fragment
 import com.newagedevs.bdbusroute.R
-import com.newagedevs.bdbusroute.activity.authentication.SignInActivity
-import com.newagedevs.bdbusroute.api.models.Category
-import com.newagedevs.bdbusroute.api.models.Slider
-import com.newagedevs.bdbusroute.api.models.product.Item
 import com.newagedevs.bdbusroute.fragments.AccountFragment
 import com.newagedevs.bdbusroute.fragments.BagFragment
 import com.newagedevs.bdbusroute.fragments.HomeFragment
 import com.newagedevs.bdbusroute.fragments.WishFragment
-import com.newagedevs.bdbusroute.helper.DatabaseHelper
-import com.newagedevs.bdbusroute.helper.switchIntent
 import kotlinx.android.synthetic.main.activity_app_base.*
 
 
@@ -120,7 +110,6 @@ class AppBaseActivity : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        loadCustomerInfo()
     }
     @SuppressLint("WrongConstant")
     fun drawerMenu(view: View){
@@ -135,52 +124,11 @@ class AppBaseActivity : AppCompatActivity() {
 
     @SuppressLint("WrongConstant")
     private fun drawerMenuBehaviour(){
-
         val navDrawer: DrawerLayout = findViewById(R.id.drawer_layout)
         navDrawer.closeDrawer(Gravity.START)
 
     }
 
-    @SuppressLint("SetTextI18n")
-    private fun loadCustomerInfo(){
-        val database = DatabaseHelper(this@AppBaseActivity)
-        val customer = database.getCustomer()
-
-        if(customer != null){
-            user_name.text = "${customer.first_name} ${customer.last_name}"
-            user_gmail.text = customer.email_address
-            signing_text.text = "Sign Out"
-
-            signing_icon.setImageResource(R.drawable.ic_sign_out_filed_white)
-
-        }else{
-            user_name.text = "Guest User"
-            user_gmail.text = "---"
-            signing_text.text = "Sign In"
-
-            signing_icon.setImageResource(R.drawable.ic_sign_in_filed_white)
-        }
-    }
-
-    fun signingCustomer(view: View) {
-        if(signing_text.text == "Sign Out"){
-            val database = DatabaseHelper(this@AppBaseActivity)
-            val customer = database.getCustomer()
-            if(customer != null){
-                database.deleteCustomer()
-                loadCustomerInfo()
-            }
-
-            drawerMenuBehaviour()
-
-        }else{
-            this.switchIntent(SignInActivity())
-        }
-    }
-
-    private fun isUserLogeIn():Boolean{
-        return DatabaseHelper(this@AppBaseActivity).getCustomer() != null
-    }
 
 
 }

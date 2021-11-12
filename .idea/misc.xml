@@ -4,6 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/activity_app_base.xml" value="0.259375" />
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/activity_main.xml" value="0.259375" />
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/dialogue_loading.xml" value="0.259375" />
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_account.xml" value="0.4" />
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_bag.xml" value="0.259375" />
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_home.xml" value="0.259375" />
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_wish.xml" value="0.259375" />
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/item_image_slider_layout.xml" value="0.259375" />
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/item_product_layout.xml" value="0.259375" />
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/item_product_wish_layout.xml" value="0.259375" />
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/spinner_item_strok_black.xml" value="0.259375" />
       </map>
     </option>
   </component>
