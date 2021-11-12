@@ -48,22 +48,18 @@ class MainActivity : AppCompatActivity() {
             when (it.itemId) {
                 R.id.nav_home -> {
                     switchContent(HomeFragment())
-                    title_text.text = getString(R.string.home)
                     true
                 }
                 R.id.nav_wish -> {
                     switchContent(WishFragment())
-                    title_text.text = getString(R.string.wish_list)
                     true
                 }
                 R.id.nav_bag -> {
                     switchContent(BagFragment())
-                    title_text.text = getString(R.string.my_bag)
                     true
                 }
                 R.id.nav_account -> {
                     switchContent(AccountFragment())
-                    title_text.text = getString(R.string.account)
                     true
                 }
                 else -> false
