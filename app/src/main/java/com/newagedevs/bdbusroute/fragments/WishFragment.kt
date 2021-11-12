@@ -8,11 +8,6 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.newagedevs.bdbusroute.R
-import com.newagedevs.bdbusroute.adapter.catagory.CategoryAdapter
-import com.newagedevs.bdbusroute.adapter.slider.SliderAdapter
-import com.newagedevs.bdbusroute.adapter.wish.WishAdapter
-import com.newagedevs.bdbusroute.api.models.product.Item
-import com.newagedevs.bdbusroute.helper.DatabaseHelper
 
 class WishFragment : Fragment() {
 

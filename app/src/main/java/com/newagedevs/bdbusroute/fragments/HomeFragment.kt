@@ -14,14 +14,6 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout.OnRefreshListener
 import com.google.gson.reflect.TypeToken
 import com.newagedevs.bdbusroute.R
-import com.newagedevs.bdbusroute.adapter.catagory.CategoryAdapter
-import com.newagedevs.bdbusroute.adapter.product.ProductAdapter
-import com.newagedevs.bdbusroute.adapter.slider.SliderAdapter
-import com.newagedevs.bdbusroute.api.models.Category
-import com.newagedevs.bdbusroute.api.models.Slider
-import com.newagedevs.bdbusroute.api.models.product.Item
-import com.newagedevs.bdbusroute.api.services.ApiBuilder
-import com.newagedevs.bdbusroute.api.services.ApiService
 import com.newagedevs.bdbusroute.helper.*
 import okhttp3.ResponseBody
 import org.json.JSONObject
@@ -55,7 +47,7 @@ class HomeFragment : Fragment() {
 
     override fun onResume() {
         super.onResume()
-        loadData()
+
     }
 
 
