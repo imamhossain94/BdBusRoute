@@ -1,14 +1,11 @@
 package com.newagedevs.bdbusroute.activity
 
-import android.annotation.SuppressLint
 import android.content.Context
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Gravity
 import android.view.View
 import androidx.annotation.RequiresApi
-import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import com.newagedevs.bdbusroute.R
 import com.newagedevs.bdbusroute.fragments.AccountFragment
@@ -42,23 +39,23 @@ class MainActivity : AppCompatActivity() {
 
 
     private fun navBar(){
-        home_bottom_navigation_view.selectedItemId = R.id.nav_home
+        home_bottom_navigation_view.selectedItemId = R.id.nav_route
 
         home_bottom_navigation_view.setOnNavigationItemSelectedListener {
             when (it.itemId) {
-                R.id.nav_home -> {
+                R.id.nav_route -> {
                     switchContent(HomeFragment())
                     true
                 }
-                R.id.nav_wish -> {
+                R.id.nav_favourite -> {
                     switchContent(WishFragment())
                     true
                 }
-                R.id.nav_bag -> {
+                R.id.nav_buses -> {
                     switchContent(BagFragment())
                     true
                 }
-                R.id.nav_account -> {
+                R.id.nav_menu -> {
                     switchContent(AccountFragment())
                     true
                 }

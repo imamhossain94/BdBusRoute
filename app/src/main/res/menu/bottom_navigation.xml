@@ -3,23 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/nav_home"
+        android:id="@+id/nav_route"
         android:icon="@drawable/ic_nav_route"
         android:title="@string/route"
         android:enabled="true" />
 
     <item
-        android:id="@+id/nav_bag"
+        android:id="@+id/nav_buses"
         android:icon="@drawable/ic_nav_bus"
         android:title="@string/buses" />
 
     <item
-        android:id="@+id/nav_wish"
+        android:id="@+id/nav_favourite"
         android:icon="@drawable/ic_nav_favourite"
         android:title="@string/favourite" />
 
     <item
-        android:id="@+id/nav_account"
+        android:id="@+id/nav_menu"
         android:icon="@drawable/ic_nav_menu"
         android:title="@string/menu" />
 
