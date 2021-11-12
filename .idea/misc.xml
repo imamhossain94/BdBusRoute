@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/drawable/ic_bus.xml" value="0.140625" />
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/drawable/ic_home.xml" value="0.140625" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/drawable/logo_shopping_bag.xml" value="0.140625" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/activity_app_base.xml" value="0.259375" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/activity_main.xml" value="0.259375" />
