@@ -6,6 +6,8 @@
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/drawable/background_round_black.xml" value="0.15" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/drawable/ic_bus.xml" value="0.140625" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/drawable/ic_buses.xml" value="0.2755208333333333" />
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/drawable/ic_heart_field.xml" value="0.15" />
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/drawable/ic_heart_stroke.xml" value="0.15" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/drawable/ic_home.xml" value="0.140625" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/drawable/ic_profile.xml" value="0.15" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/drawable/icon_contact.xml" value="0.15" />
@@ -22,6 +24,7 @@
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/item_product_layout.xml" value="0.259375" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/item_product_wish_layout.xml" value="0.259375" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/spinner_item_strok_black.xml" value="0.259375" />
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/menu/bottom_navigation.xml" value="0.13385416666666666" />
       </map>
     </option>
   </component>

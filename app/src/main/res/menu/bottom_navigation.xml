@@ -9,19 +9,19 @@
         android:enabled="true" />
 
     <item
-        android:id="@+id/nav_wish"
-        android:icon="@drawable/ic_heart_stroke"
-        android:title="Wish" />
-
-    <item
         android:id="@+id/nav_bag"
         android:icon="@drawable/ic_bag"
         android:title="Bag" />
 
     <item
+        android:id="@+id/nav_wish"
+        android:icon="@drawable/ic_heart_field"
+        android:title="Favourite" />
+
+    <item
         android:id="@+id/nav_account"
         android:icon="@drawable/ic_menu"
-        android:title="Accouts" />
+        android:title="Menu" />
 
 
 </menu>
