@@ -7,6 +7,10 @@
     <string name="my_bag">My Bag</string>
     <string name="account">Account</string>
     <string name="todo">TODO</string>
+    <string name="menu">Menu</string>
+    <string name="favourite">Favourite</string>
+    <string name="route">Route</string>
+    <string name="buses">Buses</string>
 
 
 </resources>
