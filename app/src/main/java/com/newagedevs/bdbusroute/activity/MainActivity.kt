@@ -8,10 +8,10 @@ import android.view.View
 import androidx.annotation.RequiresApi
 import androidx.fragment.app.Fragment
 import com.newagedevs.bdbusroute.R
-import com.newagedevs.bdbusroute.fragments.AccountFragment
-import com.newagedevs.bdbusroute.fragments.BagFragment
-import com.newagedevs.bdbusroute.fragments.HomeFragment
-import com.newagedevs.bdbusroute.fragments.WishFragment
+import com.newagedevs.bdbusroute.fragments.MenuFragment
+import com.newagedevs.bdbusroute.fragments.BusesFragment
+import com.newagedevs.bdbusroute.fragments.RouteFragment
+import com.newagedevs.bdbusroute.fragments.FavouriteFragment
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 //        allButtonClickEventListeners()
 
         if (savedInstanceState == null) {
-            supportFragmentManager.beginTransaction().replace(R.id.home_fragment, HomeFragment()).commit()
+            supportFragmentManager.beginTransaction().replace(R.id.home_fragment, RouteFragment()).commit()
         }
 
     }
@@ -44,19 +44,19 @@ class MainActivity : AppCompatActivity() {
         home_bottom_navigation_view.setOnNavigationItemSelectedListener {
             when (it.itemId) {
                 R.id.nav_route -> {
-                    switchContent(HomeFragment())
+                    switchContent(RouteFragment())
                     true
                 }
                 R.id.nav_favourite -> {
-                    switchContent(WishFragment())
+                    switchContent(FavouriteFragment())
                     true
                 }
                 R.id.nav_buses -> {
-                    switchContent(BagFragment())
+                    switchContent(BusesFragment())
                     true
                 }
                 R.id.nav_menu -> {
-                    switchContent(AccountFragment())
+                    switchContent(MenuFragment())
                     true
                 }
                 else -> false

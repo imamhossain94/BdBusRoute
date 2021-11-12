@@ -6,37 +6,21 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.newagedevs.bdbusroute.R
-import com.newagedevs.bdbusroute.helper.*
 
-
-class HomeFragment : Fragment() {
+class BusesFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.fragment_route, container, false)
+        return inflater.inflate(R.layout.fragment_buses, container, false)
     }
-
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         activity?.let {
 
-
         }
 
 
-
-
-
     }
-
-
-
-
-    override fun onResume() {
-        super.onResume()
-
-    }
-
 
 
 }
