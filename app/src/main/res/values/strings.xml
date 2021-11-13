@@ -8,10 +8,6 @@
     <string name="route">Route</string>
     <string name="buses">Buses</string>
 
-
-
-
-
     <string name="app_version">v1.0.0</string>
     <string name="about_apps">About Apps</string>
     <string name="about_app">BD Bus Route let you help to find out all the names and routes of the bus service in Dhaka.</string>
@@ -29,6 +25,11 @@
     <string name="share_app">Share App</string>
     <string name="share_this_app_with_your_friends">Share this app with your friends</string>
     <string name="rate_the_app">Rate The App</string>
-
+    <string name="rating_message">Your rating is too low. Please let us know how we can improve this app to meet your need.</string>
+    <string name="ui_designer">UI Designer:</string>
+    <string name="app_developer">Md. Imam Hossain</string>
+    <string name="app_developer_tag">App Developer:</string>
+    <string name="icon_used">https://www.svgrepo.com/</string>
+    <string name="icon_used_tag">Icon Used:</string>
 
 </resources>
