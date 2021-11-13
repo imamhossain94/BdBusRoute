@@ -29,9 +29,4 @@ class MenuFragment : Fragment() {
     }
 
 
-    override fun onResume() {
-        super.onResume()
-    }
-
-
 }
