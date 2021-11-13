@@ -2,10 +2,6 @@
     <string name="app_name">Bd Bus Route</string>
 
     //base activity
-    <string name="home">Home</string>
-    <string name="wish_list">Wish list</string>
-    <string name="my_bag">My Bag</string>
-    <string name="account">Account</string>
     <string name="todo">TODO</string>
     <string name="menu">Menu</string>
     <string name="favourite">Favourite</string>
@@ -18,7 +14,7 @@
 
     <string name="app_version">v1.0.0</string>
     <string name="about_apps">About Apps</string>
-    <string name="about_app">The URL Shortener is the perfect free application for transforming long, ugly links into nice, memorable, trackable and unique short URL that will redirect to the specific website of your choosing.</string>
+    <string name="about_app">BD Bus Route let you help to find out all the names and routes of the bus service in Dhaka.</string>
     <string name="version">Version</string>
     <string name="information_of_the_development">Information of the development.</string>
     <string name="about_development">About Development</string>
@@ -28,36 +24,11 @@
     <string name="feedback">Feedback</string>
     <string name="try_some_more_interesting_apps">Try some more interesting apps.</string>
     <string name="other_app">Other App</string>
-    <string name="enter_long_url">Enter long URL</string>
-    <string name="shorten">shorten</string>
-    <string name="url_expander">Expander</string>
-    <string name="expand">Expand</string>
-    <string name="expander">Expander</string>
-    <string name="enter_short_url">Enter short URL</string>
-    <string name="url">URL</string>
-    <string name="shortener">Shortener</string>
 
-    <string name="cutt_ly">cutt.ly</string>
-    <string name="chilp_it">chilp.it</string>
-    <string name="clck_ru">clck.ru</string>
-    <string name="da_gd">da.gd</string>
-    <string name="git_io">git.io</string>
-    <string name="is_gd">is.gd</string>
-    <string name="os_db">os.db</string>
-    <string name="qps_ru">qps.ru</string>
-    <string name="tiny_url">tinyURL</string>
-    <string name="choose_a_shortener">Choose a shortener</string>
-    <string name="shortened_urls">Shortened URLs</string>
-    <string name="expanded_urls">Expanded URLs</string>
     <string name="please_give_a_rating_if_you_like_this_application">Please give a rating if you like this application</string>
     <string name="share_app">Share App</string>
     <string name="share_this_app_with_your_friends">Share this app with your friends</string>
-    <string name="icon_used">https://www.svgrepo.com/</string>
-    <string name="icon_used_tag">Icon Used:</string>
     <string name="rate_the_app">Rate The App</string>
-    <string name="rating_message">Your rating is too low. Please let us know how we can improve this app to meet your need.</string>
-    <string name="favourite_urls">Favourite URLs</string>
-    <string name="empty">Empty</string>
 
 
 </resources>
