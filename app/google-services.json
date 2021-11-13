@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1095562206906",
+    "project_id": "bd-bus-route-32221",
+    "storage_bucket": "bd-bus-route-32221.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1095562206906:android:473b0cfdb1a16c269f6c83",
+        "android_client_info": {
+          "package_name": "com.newage.bdbusroute"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1095562206906-hn5v8q2pvuu94sg87eoqo86ofqau6roa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.newage.bdbusroute",
+            "certificate_hash": "6c3be2dcbf108de35d22b02cbdde13a12eb0b1da"
+          }
+        },
+        {
+          "client_id": "1095562206906-9ijc6g0a3545b0jq8a0ed028lnir8698.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1gG1FymUMHSYDcH-DFkHl_Y1aEWRaRuU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1095562206906-9ijc6g0a3545b0jq8a0ed028lnir8698.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
