@@ -33,5 +33,7 @@
     <string name="icon_used_tag">Icon Used:</string>
     <string name="bd">BD</string>
     <string name="bus_route">Bus Route</string>
+    <string name="enter_bus_name">Enter bus name</string>
+    <string name="search_for_bus">Search for bus</string>
 
 </resources>

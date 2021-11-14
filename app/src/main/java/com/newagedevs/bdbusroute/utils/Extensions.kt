@@ -24,6 +24,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import java.io.IOException
 
 fun <R> CoroutineScope.executeAsyncTask(
     onPreExecute: () -> Unit,
@@ -37,6 +38,16 @@ fun <R> CoroutineScope.executeAsyncTask(
     onPostExecute(result)
 }
 
+fun getJsonDataFromAsset(context: Context, fileName: String): String? {
+    val jsonString: String
+    try {
+        jsonString = context.assets.open(fileName).bufferedReader().use { it.readText() }
+    } catch (ioException: IOException) {
+        ioException.printStackTrace()
+        return null
+    }
+    return jsonString
+}
 
 fun getApplicationVersion():String {
     val versionName: String = BuildConfig.VERSION_NAME
