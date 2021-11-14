@@ -3,7 +3,6 @@ package com.newagedevs.bdbusroute.models
 import com.google.gson.annotations.SerializedName
 
 data class BusData (
-
     @SerializedName("english") val english : String,
     @SerializedName("bangle") val bangle : String,
     @SerializedName("image") val image : String,
