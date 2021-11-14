@@ -7,31 +7,12 @@
     android:orientation="vertical"
     tools:context=".activity.splash.SplashScreen">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:padding="15dp"
         android:layout_gravity="center"
-        android:orientation="vertical"
-        tools:ignore="UseCompoundDrawables,UselessParent">
-
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center"
-            app:srcCompat="@drawable/ic_bus"
-            android:contentDescription="@string/todo" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="0dp"
-            android:fontFamily="sans-serif"
-            android:text="@string/app_name"
-            android:textAllCaps="true"
-            android:gravity="center"
-            android:textColor="@color/colorAccent"
-            android:textSize="24sp"
-            android:textStyle="bold" />
-    </LinearLayout>
+        app:srcCompat="@drawable/ic_bus"
+        android:background="@drawable/square_round_red"
+        android:contentDescription="@string/todo" />
 </FrameLayout>

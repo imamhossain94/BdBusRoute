@@ -31,5 +31,7 @@
     <string name="app_developer_tag">App Developer:</string>
     <string name="icon_used">https://www.svgrepo.com/</string>
     <string name="icon_used_tag">Icon Used:</string>
+    <string name="bd">BD</string>
+    <string name="bus_route">Bus Route</string>
 
 </resources>
