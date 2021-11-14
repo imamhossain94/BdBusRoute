@@ -1,5 +1,6 @@
 package com.newagedevs.bdbusroute.activity.splash
 
+import android.annotation.SuppressLint
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -12,6 +13,7 @@ import com.newagedevs.bdbusroute.R
 import com.newagedevs.bdbusroute.activity.MainActivity
 import com.newagedevs.bdbusroute.helper.switchIntent
 
+@SuppressLint("CustomSplashScreen")
 class SplashScreen : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

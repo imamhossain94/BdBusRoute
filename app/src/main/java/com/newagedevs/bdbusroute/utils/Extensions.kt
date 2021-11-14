@@ -130,7 +130,7 @@ fun showRatingDialogue(context: Context, layoutInflater: LayoutInflater) {
     dialogueView.startAnimation(animPopUp)
 
     alertDialog.window!!.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
-    alertDialog.setCanceledOnTouchOutside(false)
+    alertDialog.setCanceledOnTouchOutside(true)
     alertDialog.show()
 
     closeButton.setOnClickListener{
@@ -164,7 +164,7 @@ fun showDevelopmentDialogue(context: Context, layoutInflater: LayoutInflater) {
     dialogueView.startAnimation(animPopUp)
 
     alertDialog.window!!.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
-    alertDialog.setCanceledOnTouchOutside(false)
+    alertDialog.setCanceledOnTouchOutside(true)
     alertDialog.show()
 
     closeButton.setOnClickListener{
@@ -186,7 +186,7 @@ fun showWarningMessage(context: Context,) {
     dialogueView.startAnimation(animPopUp)
 
     alertDialog.window!!.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
-    alertDialog.setCanceledOnTouchOutside(false)
+    alertDialog.setCanceledOnTouchOutside(true)
     alertDialog.show()
 
     closeButton.setOnClickListener{

@@ -66,8 +66,6 @@ class BusesFragment : Fragment() {
         val jsonFileString = getJsonDataFromAsset(requireContext(), "dhaka_local_bus.json")
         busDataList = Gson().fromJson(jsonFileString, BusDataList::class.java) as BusDataList
 
-        Log.e("Lal", busDataList.data.size.toString())
-
         allBusRecyclerViewAdapter = BusRecyclerViewAdapter(requireContext(), busDataList.data,
         onItemClick = {
             val intent = Intent(requireContext(), BusDetails::class.java)
