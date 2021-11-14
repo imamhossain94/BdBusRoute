@@ -60,28 +60,28 @@ class MainActivity : AppCompatActivity() {
                         switchContent(RouteFragment())
                     }
                     position = 0
-                    false
+                    true
                 }
                 R.id.nav_favourite -> {
                     if(position!=1){
                         switchContent(FavouriteFragment())
                     }
                     position = 1
-                    false
+                    true
                 }
                 R.id.nav_buses -> {
                     if(position!=2){
                         switchContent(BusesFragment())
                     }
                     position = 2
-                    false
+                    true
                 }
                 R.id.nav_menu -> {
                     if(position!=3){
                         switchContent(MenuFragment())
                     }
                     position = 3
-                    false
+                    true
                 }
                 else -> false
             }
