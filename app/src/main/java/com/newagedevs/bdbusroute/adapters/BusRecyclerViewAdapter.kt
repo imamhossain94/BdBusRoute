@@ -16,7 +16,7 @@ import com.newagedevs.bdbusroute.R
 import com.newagedevs.bdbusroute.models.BusData
 
 
-class AllBusRecyclerViewAdapter(
+class BusRecyclerViewAdapter(
     private val context: Context?,
     private var busList: ArrayList<BusData>,
     //val onDelete: (Int) -> Unit

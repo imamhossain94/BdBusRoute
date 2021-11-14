@@ -35,5 +35,9 @@
     <string name="bus_route">Bus Route</string>
     <string name="enter_bus_name">Enter bus name</string>
     <string name="search_for_bus">Search for bus</string>
+    <string name="enter_source_location">Enter source location</string>
+    <string name="source">Source</string>
+    <string name="destination">Destination</string>
+    <string name="enter_destination_location">Enter destination location</string>
 
 </resources>

@@ -15,9 +15,9 @@
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="15dp"
-            android:layout_marginEnd="15dp"
+            android:layout_marginEnd="10dp"
             android:layout_marginBottom="5dp"
             app:cardBackgroundColor="#FFFFFF"
             app:cardCornerRadius="5dp"
@@ -27,6 +27,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
+                android:background="@drawable/square_round_red"
                 android:padding="15dp">
 
 
@@ -35,6 +36,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/about_apps"
+                    android:textColor="#FFFFFF"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -44,6 +46,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginBottom="0dp"
+                    android:textColor="#F2F2F2"
                     android:text="@string/about_app"
                     android:textSize="14sp" />
 
@@ -54,7 +57,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
-            android:layout_marginTop="7.5dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="15dp"
             android:layout_marginBottom="7.5dp"
             android:clipChildren="true"

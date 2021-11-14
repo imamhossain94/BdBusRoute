@@ -22,6 +22,7 @@
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/drawable/icon_cross.xml" value="0.11927083333333334" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/drawable/item_button.xml" value="0.15" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/drawable/logo_shopping_bag.xml" value="0.140625" />
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/drawable/square_round_red.xml" value="0.11927083333333334" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/activity_app_base.xml" value="0.259375" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/activity_splash_screen.xml" value="0.264" />
@@ -33,7 +34,7 @@
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_buses.xml" value="0.264" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_home.xml" value="0.259375" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_menu.xml" value="0.3491847826086957" />
-        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_route.xml" value="0.103125" />
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_route.xml" value="0.176" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_wish.xml" value="0.259375" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/item_bus.xml" value="0.4" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/item_image_slider_layout.xml" value="0.259375" />

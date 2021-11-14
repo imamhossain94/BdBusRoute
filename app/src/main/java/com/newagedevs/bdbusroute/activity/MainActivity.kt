@@ -49,26 +49,39 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    var position = 0
 
     private fun navBar(){
         home_bottom_navigation_view.selectedItemId = R.id.nav_route
-        home_bottom_navigation_view.setOnNavigationItemSelectedListener {
+        home_bottom_navigation_view.setOnItemSelectedListener {
             when (it.itemId) {
                 R.id.nav_route -> {
-                    switchContent(RouteFragment())
-                    true
+                    if(position!=0){
+                        switchContent(RouteFragment())
+                    }
+                    position = 0
+                    false
                 }
                 R.id.nav_favourite -> {
-                    switchContent(FavouriteFragment())
-                    true
+                    if(position!=1){
+                        switchContent(FavouriteFragment())
+                    }
+                    position = 1
+                    false
                 }
                 R.id.nav_buses -> {
-                    switchContent(BusesFragment())
-                    true
+                    if(position!=2){
+                        switchContent(BusesFragment())
+                    }
+                    position = 2
+                    false
                 }
                 R.id.nav_menu -> {
-                    switchContent(MenuFragment())
-                    true
+                    if(position!=3){
+                        switchContent(MenuFragment())
+                    }
+                    position = 3
+                    false
                 }
                 else -> false
             }
