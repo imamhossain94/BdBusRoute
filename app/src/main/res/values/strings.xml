@@ -39,5 +39,8 @@
     <string name="source">Source</string>
     <string name="destination">Destination</string>
     <string name="enter_destination_location">Enter destination location</string>
+    <string name="view_route_on_the_google_map">View route on the google map</string>
+    <string name="open_map">Open Map</string>
+    <string name="empty">Empty</string>
 
 </resources>

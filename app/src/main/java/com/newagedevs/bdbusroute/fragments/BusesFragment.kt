@@ -1,5 +1,6 @@
 package com.newagedevs.bdbusroute.fragments
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,6 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
 import com.newagedevs.bdbusroute.R
+import com.newagedevs.bdbusroute.activity.BusDetails
 import com.newagedevs.bdbusroute.adapters.BusRecyclerViewAdapter
 import com.newagedevs.bdbusroute.models.BusData
 import com.newagedevs.bdbusroute.models.BusDataList
@@ -62,7 +64,14 @@ class BusesFragment : Fragment() {
     private fun loadData() {
         val jsonFileString = getJsonDataFromAsset(requireContext(), "dhaka_local_bus.json")
         busDataList = Gson().fromJson(jsonFileString, BusDataList::class.java) as BusDataList
-        allBusRecyclerViewAdapter = BusRecyclerViewAdapter(requireContext(), busDataList.data)
+        allBusRecyclerViewAdapter = BusRecyclerViewAdapter(requireContext(), busDataList.data,
+        onItemClick = {
+            val intent = Intent(requireContext(), BusDetails::class.java)
+            intent.putExtra("data", it)
+            intent.putExtra("source", it.routes[0])
+            intent.putExtra("destination", it.routes[it.routes.size-1])
+            requireActivity().startActivity(intent)
+        })
         allBusRecyclerView.adapter = allBusRecyclerViewAdapter
 
 

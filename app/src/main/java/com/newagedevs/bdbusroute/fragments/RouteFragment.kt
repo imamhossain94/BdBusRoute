@@ -1,16 +1,20 @@
 package com.newagedevs.bdbusroute.fragments
 
+import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.AutoCompleteTextView
+import androidx.core.view.isEmpty
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
 import com.newagedevs.bdbusroute.R
+import com.newagedevs.bdbusroute.activity.BusDetails
 import com.newagedevs.bdbusroute.adapters.BusRecyclerViewAdapter
 import com.newagedevs.bdbusroute.models.BusData
 import com.newagedevs.bdbusroute.models.BusDataList
@@ -43,6 +47,7 @@ class RouteFragment : Fragment() {
         }
         searchResultBusRecyclerView.layoutManager = LinearLayoutManager(requireContext())
 
+
         sourceEditText.afterTextChanged { data ->
             source = data
             findRoute()
@@ -64,7 +69,19 @@ class RouteFragment : Fragment() {
     private fun loadData() {
         val jsonFileString = getJsonDataFromAsset(requireContext(), "dhaka_local_bus.json")
         busDataList = Gson().fromJson(jsonFileString, BusDataList::class.java) as BusDataList
-        searchResultRecyclerViewAdapter = BusRecyclerViewAdapter(requireContext(), busDataList.data)
+        searchResultRecyclerViewAdapter = BusRecyclerViewAdapter(requireContext(), busDataList.data,
+        onItemClick = {
+            val intent = Intent(requireContext(), BusDetails::class.java)
+            intent.putExtra("data", it)
+            if(source.isNotEmpty() || destination.isNotEmpty()){
+                intent.putExtra("source", source)
+                intent.putExtra("destination", destination)
+            }else{
+                intent.putExtra("source", it.routes[0])
+                intent.putExtra("destination", it.routes[it.routes.size-1])
+            }
+            requireActivity().startActivity(intent)
+        })
         searchResultBusRecyclerView.adapter = searchResultRecyclerViewAdapter
 
         val k = mutableSetOf<String>()

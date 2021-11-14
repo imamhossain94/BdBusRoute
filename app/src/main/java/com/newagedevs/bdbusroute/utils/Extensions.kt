@@ -19,6 +19,7 @@ import androidx.core.app.ShareCompat
 import androidx.core.content.ContextCompat.startActivity
 import com.newagedevs.bdbusroute.BuildConfig
 import com.newagedevs.bdbusroute.R
+import es.dmoral.toasty.Toasty
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -47,6 +48,12 @@ fun getJsonDataFromAsset(context: Context, fileName: String): String? {
     }
     return jsonString
 }
+
+fun Context.toast(message: CharSequence) = Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
+fun Context.toastySuccess(message: CharSequence) = Toasty.success(this, message, Toast.LENGTH_SHORT, true).show()
+fun Context.toastyError(message: CharSequence) = Toasty.error(this, message, Toast.LENGTH_SHORT, true).show()
+fun Context.toastyInfo(message: CharSequence) = Toasty.info(this, message, Toast.LENGTH_SHORT, true).show()
+fun Context.toastyWarning(message: CharSequence) = Toasty.warning(this, message, Toast.LENGTH_SHORT, true).show()
 
 fun EditText.afterTextChanged(afterTextChanged: (String) -> Unit) {
     this.addTextChangedListener(object : TextWatcher {

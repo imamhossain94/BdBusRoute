@@ -2,6 +2,7 @@ package com.newagedevs.bdbusroute.adapters
 
 import android.annotation.SuppressLint
 import android.content.Context
+import android.content.Intent
 import android.graphics.text.LineBreaker.JUSTIFICATION_MODE_INTER_WORD
 import android.os.Build
 import android.view.LayoutInflater
@@ -10,16 +11,18 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.newagedevs.bdbusroute.R
+import com.newagedevs.bdbusroute.activity.BusDetails
 import com.newagedevs.bdbusroute.models.BusData
 
 
 class BusRecyclerViewAdapter(
     private val context: Context?,
     private var busList: ArrayList<BusData>,
-    //val onDelete: (Int) -> Unit
+    val onItemClick: (BusData) -> Unit
 ) : RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, p1: Int): RecyclerView.ViewHolder {
@@ -33,11 +36,7 @@ class BusRecyclerViewAdapter(
         (holder as MyViewHolder).bindItems(busList[position])
 
         holder.itemButton.setOnClickListener {
-//            urlList.removeAt(position)
-//            Hawk.delete("favouriteUrls")
-//            Hawk.put("favouriteUrls", urlList)
-            //onDelete(urlList.size)
-            //notifyDataSetChanged()
+            onItemClick(busList[position])
         }
     }
 
