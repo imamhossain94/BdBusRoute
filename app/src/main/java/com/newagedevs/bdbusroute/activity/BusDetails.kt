@@ -18,6 +18,10 @@ import android.content.Intent
 
 import android.content.ActivityNotFoundException
 import android.net.Uri
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.newagedevs.bdbusroute.adapters.BusRecyclerViewAdapter
+import com.newagedevs.bdbusroute.adapters.RouteRecyclerViewAdapter
 
 
 class BusDetails : AppCompatActivity() {
@@ -31,6 +35,9 @@ class BusDetails : AppCompatActivity() {
     private lateinit var sourceText:TextView
     private lateinit var destinationText:TextView
     private lateinit var buttonOpenMap:Button
+    private lateinit var routesRecyclerView: RecyclerView
+    private lateinit var routesRecyclerViewAdapter: RouteRecyclerViewAdapter
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -46,6 +53,8 @@ class BusDetails : AppCompatActivity() {
         sourceText = findViewById(R.id.source_text)
         destinationText = findViewById(R.id.destination_text)
         buttonOpenMap = findViewById(R.id.button_open_map)
+        routesRecyclerView = findViewById(R.id.routes_recycler_view)
+        routesRecyclerView.layoutManager = LinearLayoutManager(this)
 
         val busData = intent.getSerializableExtra("data") as? BusData
         val source = intent.getStringExtra("source")
@@ -109,5 +118,9 @@ class BusDetails : AppCompatActivity() {
             }
 
         }
+
+        routesRecyclerViewAdapter = RouteRecyclerViewAdapter(this,  busData.routes)
+        routesRecyclerView.adapter = routesRecyclerViewAdapter
+
     }
 }
