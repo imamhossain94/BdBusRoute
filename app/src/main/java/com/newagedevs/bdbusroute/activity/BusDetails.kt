@@ -18,6 +18,7 @@ import android.content.Intent
 
 import android.content.ActivityNotFoundException
 import android.net.Uri
+import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.newagedevs.bdbusroute.adapters.BusRecyclerViewAdapter
@@ -55,6 +56,12 @@ class BusDetails : AppCompatActivity() {
         buttonOpenMap = findViewById(R.id.button_open_map)
         routesRecyclerView = findViewById(R.id.routes_recycler_view)
         routesRecyclerView.layoutManager = LinearLayoutManager(this)
+        routesRecyclerView.addItemDecoration(
+            DividerItemDecoration(
+                this,
+                LinearLayoutManager.VERTICAL
+            )
+        )
 
         val busData = intent.getSerializableExtra("data") as? BusData
         val source = intent.getStringExtra("source")
