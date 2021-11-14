@@ -13,6 +13,7 @@ import com.google.gson.reflect.TypeToken
 import com.newagedevs.bdbusroute.R
 import com.newagedevs.bdbusroute.adapters.AllBusRecyclerViewAdapter
 import com.newagedevs.bdbusroute.models.BusData
+import com.newagedevs.bdbusroute.models.BusDataList
 import com.newagedevs.bdbusroute.utils.getJsonDataFromAsset
 
 class BusesFragment : Fragment() {
@@ -42,10 +43,9 @@ class BusesFragment : Fragment() {
     private fun loadData() {
         val jsonFileString = getJsonDataFromAsset(requireContext(), "dhaka_local_bus.json")
 
-        val typeToken = object : TypeToken<ArrayList<BusData>>() {}.type
-        val busDataList: ArrayList<BusData> = Gson().fromJson(jsonFileString, typeToken)
+        val routine = Gson().fromJson(jsonFileString, BusDataList::class.java) as BusDataList
 
-        allBusRecyclerViewAdapter = AllBusRecyclerViewAdapter(requireContext(), busDataList)
+        allBusRecyclerViewAdapter = AllBusRecyclerViewAdapter(requireContext(), routine.data)
         allBusRecyclerView.adapter = allBusRecyclerViewAdapter
     }
 
