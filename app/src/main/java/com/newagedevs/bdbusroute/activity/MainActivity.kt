@@ -20,7 +20,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-
+    private lateinit var iconWarning:ImageView
     private lateinit var iconRating:ImageView
     private lateinit var iconShare:ImageView
 
@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager.beginTransaction().replace(R.id.home_fragment, RouteFragment()).commit()
         }
 
-
+        iconWarning = findViewById(R.id.icon_warning)
         iconRating = findViewById(R.id.icon_rating)
         iconShare = findViewById(R.id.icon_share)
 
@@ -49,7 +49,10 @@ class MainActivity : AppCompatActivity() {
             shareTheApp(this)
         }
 
-        showWarningMessage(this)
+        iconWarning.setOnClickListener{
+            showWarningMessage(this)
+        }
+
 
     }
 
