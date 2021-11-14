@@ -42,5 +42,10 @@
     <string name="view_route_on_the_google_map">View route on the google map</string>
     <string name="open_map">Open Map</string>
     <string name="empty">Empty</string>
+    <string name="warning">Warning</string>
+    <string name="can_t_find_a_route">◉ Can\'t find a route?</string>
+    <string name="cant_find_a_route_answer">- There have some buses that are old or new in Dhaka city. If we failed to collect all the information correctly then you may not see a route.</string>
+    <string name="app_is_showing_wrong_route">◉ App is Showing wrong route?</string>
+    <string name="app_is_showing_wrong_route_message">- Sorry for that. Please help us by sending the correct route by the feedback mail.</string>
 
 </resources>

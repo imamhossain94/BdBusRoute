@@ -33,12 +33,13 @@
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/dialogue_development.xml" value="0.2" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/dialogue_loading.xml" value="0.259375" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/dialogue_rating.xml" value="0.103125" />
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/dialogue_warning.xml" value="0.264" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_account.xml" value="0.4" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_bag.xml" value="0.259375" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_buses.xml" value="0.264" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_favourite.xml" value="0.16" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_home.xml" value="0.259375" />
-        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_menu.xml" value="0.3491847826086957" />
+        <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_menu.xml" value="0.30275229357798167" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_route.xml" value="0.176" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/fragment_wish.xml" value="0.259375" />
         <entry key="..\:/AndroidProjects/BDBusRoute/app/src/main/res/layout/item_bus.xml" value="0.4" />
