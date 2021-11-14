@@ -15,6 +15,7 @@ import com.newagedevs.bdbusroute.fragments.MenuFragment
 import com.newagedevs.bdbusroute.fragments.RouteFragment
 import com.newagedevs.bdbusroute.utils.shareTheApp
 import com.newagedevs.bdbusroute.utils.showRatingDialogue
+import com.newagedevs.bdbusroute.utils.showWarningMessage
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -47,6 +48,8 @@ class MainActivity : AppCompatActivity() {
         iconShare.setOnClickListener{
             shareTheApp(this)
         }
+
+        showWarningMessage(this)
 
     }
 

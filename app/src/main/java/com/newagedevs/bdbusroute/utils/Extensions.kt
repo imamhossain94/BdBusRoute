@@ -20,6 +20,7 @@ import androidx.core.content.ContextCompat.startActivity
 import com.newagedevs.bdbusroute.BuildConfig
 import com.newagedevs.bdbusroute.R
 import es.dmoral.toasty.Toasty
+import kotlinx.android.synthetic.main.dialogue_warning.view.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -158,6 +159,28 @@ fun showDevelopmentDialogue(context: Context, layoutInflater: LayoutInflater) {
 
     val closeButton = dialogView.findViewById<ImageView>(R.id.dev_close_button)
 
+    val alertDialog = dialogBuilder.create()
+    val animPopUp = AnimationUtils.loadAnimation(context, android.R.anim.fade_in)
+    dialogueView.startAnimation(animPopUp)
+
+    alertDialog.window!!.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+    alertDialog.setCanceledOnTouchOutside(false)
+    alertDialog.show()
+
+    closeButton.setOnClickListener{
+        alertDialog.dismiss()
+    }
+
+}
+
+
+fun showWarningMessage(context: Context,) {
+    val dialogBuilder = AlertDialog.Builder(context)
+    val dialogView = LayoutInflater.from(context).inflate(R.layout.dialogue_warning, null)
+    dialogBuilder.setView(dialogView)
+
+    val dialogueView = dialogView.warning_containers
+    val closeButton = dialogView.warning_close_button
     val alertDialog = dialogBuilder.create()
     val animPopUp = AnimationUtils.loadAnimation(context, android.R.anim.fade_in)
     dialogueView.startAnimation(animPopUp)
