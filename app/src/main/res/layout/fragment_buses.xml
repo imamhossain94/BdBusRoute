@@ -16,7 +16,7 @@
         android:layout_marginBottom="5dp"
         app:cardBackgroundColor="#FFFFFF"
         app:cardCornerRadius="5dp"
-        app:cardElevation="15dp">
+        app:cardElevation="1dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -51,17 +51,12 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:text="Filtered Bus"
-        android:textStyle="bold" />
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/all_bus_recycler_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
         android:layout_weight="1" />
 
 </LinearLayout>

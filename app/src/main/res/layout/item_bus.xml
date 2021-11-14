@@ -19,8 +19,7 @@
             android:id="@+id/bus_image"
             android:layout_width="100dp"
             android:layout_height="75dp"
-            android:contentDescription="@string/todo"
-            android:src="@drawable/db" />
+            android:contentDescription="@string/todo"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -34,7 +33,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="start|center"
-                android:text="Achim Poribohon"
                 android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -44,9 +42,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:gravity="start|center"
+                android:textAlignment="center"
                 android:maxLines="2"
-                android:text="Savar, Hemayetpur, Amin Bazar, Gabtoli, Technical, Kallyanpur Shyamoli, Shishu Mela, Agargaon, Zia Uddyan, Bijoy Sarani, Jahangir Gate Mohakhali, Wireless, Gulshan 1, Badda Link Road Bashtola, Shahjadpur, Uttar Badda,Notun Bazar"
+                android:ellipsize="marquee"
+                android:scrollHorizontally="true"
+                android:marqueeRepeatLimit="marquee_forever"
                 android:textColor="#737373"
                 android:textSize="14sp" />
 

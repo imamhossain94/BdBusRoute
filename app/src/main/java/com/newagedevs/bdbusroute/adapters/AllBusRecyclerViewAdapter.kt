@@ -60,6 +60,7 @@ class AllBusRecyclerViewAdapter(
             val busImage = itemView.findViewById<ImageView>(R.id.bus_image)
             val busName = itemView.findViewById<TextView>(R.id.bus_name)
             val busRoute = itemView.findViewById<TextView>(R.id.bus_route)
+            busRoute.isSelected = true
 
             busName.text = busData.english
             busRoute.text = busData.routes.joinToString(separator = " - ")
