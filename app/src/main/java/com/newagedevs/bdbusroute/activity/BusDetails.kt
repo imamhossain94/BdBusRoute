@@ -1,35 +1,31 @@
 package com.newagedevs.bdbusroute.activity
 
-import android.os.Build
-import androidx.appcompat.app.AppCompatActivity
+import android.content.ActivityNotFoundException
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
-import androidx.annotation.RequiresApi
-import com.bumptech.glide.Glide
-import com.jsibbold.zoomage.ZoomageView
-import com.newagedevs.bdbusroute.R
-import com.newagedevs.bdbusroute.models.BusData
-import com.newagedevs.bdbusroute.utils.toastySuccess
-import com.orhanobut.hawk.Hawk
-import android.content.Intent
-
-import android.content.ActivityNotFoundException
-import android.net.Uri
-import androidx.appcompat.app.AppCompatDelegate
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.newagedevs.bdbusroute.adapters.BusRecyclerViewAdapter
+import com.bumptech.glide.Glide
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdView
+import com.jsibbold.zoomage.ZoomageView
+import com.newagedevs.bdbusroute.R
 import com.newagedevs.bdbusroute.adapters.RouteRecyclerViewAdapter
+import com.newagedevs.bdbusroute.models.BusData
+import com.newagedevs.bdbusroute.utils.toastySuccess
+import com.orhanobut.hawk.Hawk
 
 
 class BusDetails : AppCompatActivity() {
 
     private var isFavourite:Boolean = false
-
+    lateinit var mAdView : AdView
     private lateinit var backButton:ImageView
     private lateinit var toolbarTitle:TextView
     private lateinit var heartButton:ImageView
@@ -45,6 +41,11 @@ class BusDetails : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_bus_details)
         Hawk.init(this).build()
+
+
+        mAdView = findViewById(R.id.adView)
+        val adRequest = AdRequest.Builder().build()
+        mAdView.loadAd(adRequest)
 
         backButton = findViewById(R.id.icon_back)
         toolbarTitle = findViewById(R.id.toolbar_title)

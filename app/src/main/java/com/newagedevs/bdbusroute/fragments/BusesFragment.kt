@@ -11,6 +11,12 @@ import android.widget.AutoCompleteTextView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.gms.ads.AdError
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.FullScreenContentCallback
+import com.google.android.gms.ads.LoadAdError
+import com.google.android.gms.ads.interstitial.InterstitialAd
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 import com.google.gson.Gson
 import com.newagedevs.bdbusroute.R
 import com.newagedevs.bdbusroute.activity.BusDetails
@@ -21,6 +27,7 @@ import com.newagedevs.bdbusroute.utils.afterTextChanged
 import com.newagedevs.bdbusroute.utils.getJsonDataFromAsset
 
 class BusesFragment : Fragment() {
+    private var mInterstitialAd: InterstitialAd? = null
 
     private lateinit var busDataList: BusDataList
     private lateinit var editTextAllBus: AutoCompleteTextView
@@ -54,11 +61,14 @@ class BusesFragment : Fragment() {
 
             allBusRecyclerViewAdapter.filterBusList(k)
         }
+
+        loadInterstitial()
         loadData()
     }
 
     override fun onResume() {
         super.onResume()
+        loadInterstitial()
         loadData()
     }
 
@@ -72,7 +82,24 @@ class BusesFragment : Fragment() {
             intent.putExtra("data", it)
             intent.putExtra("source", it.routes[0])
             intent.putExtra("destination", it.routes[it.routes.size-1])
-            requireActivity().startActivity(intent)
+
+            if (mInterstitialAd != null) {
+                mInterstitialAd?.fullScreenContentCallback =
+                    object : FullScreenContentCallback() {
+                        override fun onAdDismissedFullScreenContent() {
+                            requireActivity().startActivity(intent)
+                        }
+
+                        override fun onAdFailedToShowFullScreenContent(adError: AdError?) {}
+                        override fun onAdShowedFullScreenContent() {
+                            mInterstitialAd = null
+                        }
+                    }
+                mInterstitialAd?.show(requireActivity())
+            } else {
+                requireActivity().startActivity(intent)
+            }
+
         })
         allBusRecyclerView.adapter = allBusRecyclerViewAdapter
 
@@ -85,5 +112,24 @@ class BusesFragment : Fragment() {
         val adapter = ArrayAdapter(requireContext(), android.R.layout.simple_list_item_1, k.toList())
         editTextAllBus.setAdapter(adapter)
     }
+
+    private fun loadInterstitial() {
+        val adRequest = AdRequest.Builder().build()
+
+        InterstitialAd.load(
+            requireContext(),
+            getString(R.string.id_interstitial),
+            adRequest,
+            object : InterstitialAdLoadCallback() {
+                override fun onAdFailedToLoad(adError: LoadAdError) {
+                    mInterstitialAd = null
+                }
+
+                override fun onAdLoaded(interstitialAd: InterstitialAd) {
+                    mInterstitialAd = interstitialAd
+                }
+            })
+    }
+
 
 }

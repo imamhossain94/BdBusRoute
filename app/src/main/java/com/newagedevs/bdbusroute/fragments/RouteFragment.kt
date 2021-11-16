@@ -12,6 +12,12 @@ import androidx.core.view.isEmpty
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.gms.ads.AdError
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.FullScreenContentCallback
+import com.google.android.gms.ads.LoadAdError
+import com.google.android.gms.ads.interstitial.InterstitialAd
+import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 import com.google.gson.Gson
 import com.newagedevs.bdbusroute.R
 import com.newagedevs.bdbusroute.activity.BusDetails
@@ -24,6 +30,9 @@ import com.newagedevs.bdbusroute.utils.getJsonDataFromAsset
 
 class RouteFragment : Fragment() {
 
+    private var mInterstitialAd: InterstitialAd? = null
+
+
     private var source: String = ""
     private var destination: String = ""
 
@@ -33,7 +42,11 @@ class RouteFragment : Fragment() {
     private lateinit var searchResultBusRecyclerView: RecyclerView
     private lateinit var searchResultRecyclerViewAdapter: BusRecyclerViewAdapter
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
         return inflater.inflate(R.layout.fragment_route, container, false)
     }
 
@@ -58,11 +71,13 @@ class RouteFragment : Fragment() {
             findRoute()
         }
 
+        loadInterstitial()
         loadData()
     }
 
     override fun onResume() {
         super.onResume()
+        loadInterstitial()
         loadData()
     }
 
@@ -70,36 +85,55 @@ class RouteFragment : Fragment() {
         val jsonFileString = getJsonDataFromAsset(requireContext(), "dhaka_local_bus.json")
         busDataList = Gson().fromJson(jsonFileString, BusDataList::class.java) as BusDataList
         searchResultRecyclerViewAdapter = BusRecyclerViewAdapter(requireContext(), busDataList.data,
-        onItemClick = {
-            val intent = Intent(requireContext(), BusDetails::class.java)
-            intent.putExtra("data", it)
-            if(source.isNotEmpty() || destination.isNotEmpty()){
-                intent.putExtra("source", source)
-                intent.putExtra("destination", destination)
-            }else{
-                intent.putExtra("source", it.routes[0])
-                intent.putExtra("destination", it.routes[it.routes.size-1])
-            }
-            requireActivity().startActivity(intent)
-        })
+            onItemClick = {
+                val intent = Intent(requireContext(), BusDetails::class.java)
+                intent.putExtra("data", it)
+                if (source.isNotEmpty() || destination.isNotEmpty()) {
+                    intent.putExtra("source", source)
+                    intent.putExtra("destination", destination)
+                } else {
+                    intent.putExtra("source", it.routes[0])
+                    intent.putExtra("destination", it.routes[it.routes.size - 1])
+                }
+                //Code here
+
+                if (mInterstitialAd != null) {
+                    mInterstitialAd?.fullScreenContentCallback =
+                        object : FullScreenContentCallback() {
+                            override fun onAdDismissedFullScreenContent() {
+                                requireActivity().startActivity(intent)
+                            }
+
+                            override fun onAdFailedToShowFullScreenContent(adError: AdError?) {}
+                            override fun onAdShowedFullScreenContent() {
+                                mInterstitialAd = null
+                            }
+                        }
+                    mInterstitialAd?.show(requireActivity())
+                } else {
+                    requireActivity().startActivity(intent)
+                }
+
+            })
         searchResultBusRecyclerView.adapter = searchResultRecyclerViewAdapter
 
         val k = mutableSetOf<String>()
-        for (x in busDataList.data){
-            for (y in x.routes){
+        for (x in busDataList.data) {
+            for (y in x.routes) {
                 k.add(y)
             }
         }
-        val adapter = ArrayAdapter(requireContext(), android.R.layout.simple_list_item_1, k.toList())
+        val adapter =
+            ArrayAdapter(requireContext(), android.R.layout.simple_list_item_1, k.toList())
         sourceEditText.setAdapter(adapter)
         destinationEditText.setAdapter(adapter)
     }
 
     private fun findRoute() {
         val k = ArrayList<BusData>()
-        for (x in busDataList.data){
+        for (x in busDataList.data) {
 
-            if(source in x.routes && destination in x.routes)
+            if (source in x.routes && destination in x.routes)
                 k.add(x)
 //            for (y in x.routes){
 //                if(y.trim().lowercase().contains(source.trim().lowercase())
@@ -110,5 +144,23 @@ class RouteFragment : Fragment() {
         searchResultRecyclerViewAdapter.filterBusList(k)
     }
 
+
+    private fun loadInterstitial() {
+        val adRequest = AdRequest.Builder().build()
+
+        InterstitialAd.load(
+            requireContext(),
+            getString(R.string.id_interstitial),
+            adRequest,
+            object : InterstitialAdLoadCallback() {
+                override fun onAdFailedToLoad(adError: LoadAdError) {
+                    mInterstitialAd = null
+                }
+
+                override fun onAdLoaded(interstitialAd: InterstitialAd) {
+                    mInterstitialAd = interstitialAd
+                }
+            })
+    }
 
 }
