@@ -10,7 +10,7 @@
 
     //Ads
     <string name="id_app">ca-app-pub-4061500537427923~4089482389</string>
-    <string name="id_banner">TODO</string>
+    <string name="id_banner">ca-app-pub-4061500537427923/7310542094</string>
     <string name="id_interstitial">TODO</string>
 
     <string name="app_version">v1.0.0</string>
