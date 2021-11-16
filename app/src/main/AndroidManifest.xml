@@ -15,8 +15,7 @@
         <activity
             android:name=".activity.BusDetails"
             android:exported="false" />
-        <activity android:name=".activity.MainActivity" />
-        <activity android:name=".activity.splash.SplashScreen">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
