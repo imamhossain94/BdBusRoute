@@ -62,7 +62,7 @@ class BusRecyclerViewAdapter(
             busRoute.isSelected = true
 
             busName.text = busData.english
-            busRoute.text = busData.routes.joinToString(separator = " - ")
+            busRoute.text = busData.routes.joinToString(separator = " • ")
 
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
                 busRoute.justificationMode = JUSTIFICATION_MODE_INTER_WORD
