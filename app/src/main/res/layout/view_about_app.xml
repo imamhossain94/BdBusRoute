@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -24,18 +25,18 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
-                    android:gravity="center|start"
-                    android:text="@string/app_developer_tag"
+                    android:text="App Developer:"
                     android:textSize="16sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:gravity="center|start"/>
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="50dp"
+                    android:text="Md. Imam Hossain"
                     android:layout_weight="1"
-                    android:gravity="center|end"
-                    android:text="@string/app_developer"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:gravity="center|end"/>
 
             </LinearLayout>
 
@@ -44,7 +45,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="?android:attr/listDivider" />
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -55,18 +55,18 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
-                    android:gravity="center|start"
-                    android:text="@string/ui_designer"
+                    android:text="UI Designer:"
                     android:textSize="16sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:gravity="center|start"/>
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="50dp"
+                    android:text="Md. Imam Hossain"
                     android:layout_weight="1"
-                    android:gravity="center|end"
-                    android:text="@string/app_developer"
-                    android:textSize="16sp" />
+                    android:textSize="16sp"
+                    android:gravity="center|end"/>
 
             </LinearLayout>
 
@@ -75,7 +75,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
                 android:background="?android:attr/listDivider" />
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -86,18 +85,18 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
-                    android:gravity="center|start"
                     android:text="@string/icon_used_tag"
                     android:textSize="16sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:gravity="center|start"/>
 
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="50dp"
-                    android:layout_weight="1"
-                    android:gravity="center|end"
                     android:text="@string/icon_used"
-                    android:textSize="16sp" />
+                    android:layout_weight="1"
+                    android:textSize="16sp"
+                    android:gravity="center|end"/>
 
             </LinearLayout>
 
