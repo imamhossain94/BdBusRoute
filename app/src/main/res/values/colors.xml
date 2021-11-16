@@ -3,9 +3,15 @@
     <color name="colorPrimary">#222222</color>
     <color name="colorPrimary2">#666666</color>
     <color name="colorAccent">#FF485A</color>
-
     <color name="colorRipple">#DED3D3</color>
-
     <color name="colorBackground">#F2F2F2</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_blue">#ff166FE5</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_dark">#0A0B0B</color>
+    <color name="color_background_dark">#ff141617</color>
+    <color name="color_background_white">#F2F2F2</color>
 
 </resources>
