@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.fragment.app.Fragment
+import com.google.android.gms.ads.MobileAds
 import com.newagedevs.bdbusroute.R
 import com.newagedevs.bdbusroute.fragments.BusesFragment
 import com.newagedevs.bdbusroute.fragments.FavouriteFragment
@@ -30,6 +31,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         installSplashScreen()
         setContentView(R.layout.activity_main)
+
+        //Initialized mobile ads
+        MobileAds.initialize(this) {}
 
         navBar()
         if (savedInstanceState == null) {

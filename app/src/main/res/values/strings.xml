@@ -8,6 +8,11 @@
     <string name="route">Route</string>
     <string name="buses">Buses</string>
 
+    //Ads
+    <string name="id_app">ca-app-pub-4061500537427923~4089482389</string>
+    <string name="id_banner">TODO</string>
+    <string name="id_interstitial">TODO</string>
+
     <string name="app_version">v1.0.0</string>
     <string name="about_apps">About Apps</string>
     <string name="about_app">BD Bus Route let you help to find out all the names and routes of the bus service in Dhaka.</string>
