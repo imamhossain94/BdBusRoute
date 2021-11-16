@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/colorBackground">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,14 +20,14 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="5dp"
             app:cardBackgroundColor="#FFFFFF"
-            app:cardCornerRadius="5dp"
+            app:cardCornerRadius="8dp"
             app:cardElevation="15dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical"
                 android:background="@drawable/square_round_red"
+                android:orientation="vertical"
                 android:padding="15dp">
 
 
@@ -46,8 +46,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:layout_marginBottom="0dp"
-                    android:textColor="#F2F2F2"
                     android:text="@string/about_app"
+                    android:textColor="#F2F2F2"
                     android:textSize="14sp" />
 
             </LinearLayout>
@@ -61,13 +61,13 @@
             android:layout_marginEnd="15dp"
             android:layout_marginBottom="7.5dp"
             android:clipChildren="true"
-            app:cardBackgroundColor="#FFFFFF"
             app:cardCornerRadius="5dp"
             app:cardElevation="0dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="?attr/colorSecondary"
                 android:gravity="center"
                 android:orientation="horizontal">
 
@@ -78,7 +78,8 @@
                     android:layout_marginStart="15dp"
                     android:layout_marginEnd="0dp"
                     android:contentDescription="@string/todo"
-                    android:src="@drawable/ic_rating" />
+                    android:src="@drawable/ic_rating"
+                    tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck,ImageContrastCheck" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -111,7 +112,8 @@
                 android:id="@+id/rating_button"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="@drawable/item_button" />
+                android:background="@drawable/item_button"
+                tools:ignore="SpeakableTextPresentCheck" />
 
 
         </androidx.cardview.widget.CardView>
@@ -124,13 +126,13 @@
             android:layout_marginEnd="15dp"
             android:layout_marginBottom="7.5dp"
             android:clipChildren="true"
-            app:cardBackgroundColor="#FFFFFF"
             app:cardCornerRadius="5dp"
             app:cardElevation="0dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="?attr/colorSecondary"
                 android:gravity="center"
                 android:orientation="horizontal">
 
@@ -141,7 +143,8 @@
                     android:layout_marginStart="15dp"
                     android:layout_marginEnd="0dp"
                     android:contentDescription="@string/todo"
-                    android:src="@drawable/ic_share" />
+                    android:src="@drawable/ic_share"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -173,7 +176,8 @@
                 android:id="@+id/share_button"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="@drawable/item_button" />
+                android:background="@drawable/item_button"
+                tools:ignore="SpeakableTextPresentCheck" />
 
 
         </androidx.cardview.widget.CardView>
@@ -186,13 +190,13 @@
             android:layout_marginEnd="15dp"
             android:layout_marginBottom="7.5dp"
             android:clipChildren="true"
-            app:cardBackgroundColor="#FFFFFF"
             app:cardCornerRadius="5dp"
             app:cardElevation="0dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="?attr/colorSecondary"
                 android:gravity="center"
                 android:orientation="horizontal">
 
@@ -203,7 +207,8 @@
                     android:layout_marginStart="15dp"
                     android:layout_marginEnd="0dp"
                     android:contentDescription="@string/todo"
-                    android:src="@drawable/ic_other_app" />
+                    android:src="@drawable/ic_other_app"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -235,7 +240,8 @@
                 android:id="@+id/other_app_button"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="@drawable/item_button" />
+                android:background="@drawable/item_button"
+                tools:ignore="SpeakableTextPresentCheck" />
 
 
         </androidx.cardview.widget.CardView>
@@ -248,13 +254,13 @@
             android:layout_marginEnd="15dp"
             android:layout_marginBottom="7.5dp"
             android:clipChildren="true"
-            app:cardBackgroundColor="#FFFFFF"
             app:cardCornerRadius="5dp"
             app:cardElevation="0dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="?attr/colorSecondary"
                 android:gravity="center"
                 android:orientation="horizontal">
 
@@ -265,7 +271,8 @@
                     android:layout_marginStart="15dp"
                     android:layout_marginEnd="0dp"
                     android:contentDescription="@string/todo"
-                    android:src="@drawable/ic_feedback" />
+                    android:src="@drawable/ic_feedback"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -297,7 +304,8 @@
                 android:id="@+id/feedback_button"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="@drawable/item_button" />
+                android:background="@drawable/item_button"
+                tools:ignore="SpeakableTextPresentCheck" />
 
 
         </androidx.cardview.widget.CardView>
@@ -310,13 +318,13 @@
             android:layout_marginEnd="15dp"
             android:layout_marginBottom="7.5dp"
             android:clipChildren="true"
-            app:cardBackgroundColor="#FFFFFF"
             app:cardCornerRadius="5dp"
             app:cardElevation="0dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="?attr/colorSecondary"
                 android:gravity="center"
                 android:orientation="horizontal">
 
@@ -327,7 +335,8 @@
                     android:layout_marginStart="15dp"
                     android:layout_marginEnd="0dp"
                     android:contentDescription="@string/todo"
-                    android:src="@drawable/ic_contact" />
+                    android:src="@drawable/ic_contact"
+                    tools:ignore="TouchTargetSizeCheck,ImageContrastCheck" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -359,7 +368,8 @@
                 android:id="@+id/contact_button"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="@drawable/item_button" />
+                android:background="@drawable/item_button"
+                tools:ignore="SpeakableTextPresentCheck" />
 
 
         </androidx.cardview.widget.CardView>
@@ -372,13 +382,13 @@
             android:layout_marginEnd="15dp"
             android:layout_marginBottom="7.5dp"
             android:clipChildren="true"
-            app:cardBackgroundColor="#FFFFFF"
             app:cardCornerRadius="5dp"
             app:cardElevation="0dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="?attr/colorSecondary"
                 android:gravity="center"
                 android:orientation="horizontal">
 
@@ -389,7 +399,8 @@
                     android:layout_marginStart="15dp"
                     android:layout_marginEnd="0dp"
                     android:contentDescription="@string/todo"
-                    android:src="@drawable/ic_development" />
+                    android:src="@drawable/ic_development"
+                    tools:ignore="TouchTargetSizeCheck,ImageContrastCheck" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -421,7 +432,8 @@
                 android:id="@+id/app_dev_button"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="@drawable/item_button" />
+                android:background="@drawable/item_button"
+                tools:ignore="SpeakableTextPresentCheck" />
 
 
         </androidx.cardview.widget.CardView>
@@ -434,13 +446,13 @@
             android:layout_marginEnd="15dp"
             android:layout_marginBottom="7.5dp"
             android:clipChildren="true"
-            app:cardBackgroundColor="#FFFFFF"
             app:cardCornerRadius="5dp"
             app:cardElevation="0dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="?attr/colorSecondary"
                 android:gravity="center"
                 android:orientation="horizontal">
 
@@ -451,7 +463,8 @@
                     android:layout_marginStart="15dp"
                     android:layout_marginEnd="0dp"
                     android:contentDescription="@string/todo"
-                    android:src="@drawable/ic_version" />
+                    android:src="@drawable/ic_version"
+                    tools:ignore="TouchTargetSizeCheck" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -483,7 +496,8 @@
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:background="@drawable/item_button" />
+                android:background="@drawable/item_button"
+                tools:ignore="SpeakableTextPresentCheck" />
 
 
         </androidx.cardview.widget.CardView>
