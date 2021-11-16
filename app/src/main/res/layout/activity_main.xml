@@ -103,7 +103,7 @@
         android:id="@+id/home_bottom_navigation_view"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#FFFFFF"
+        android:background="?attr/colorOnSecondary"
         app:menu="@menu/bottom_navigation" />
 
 

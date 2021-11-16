@@ -44,10 +44,7 @@ class BusDetails : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_bus_details)
-        AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         Hawk.init(this).build()
-        @RequiresApi(Build.VERSION_CODES.M)
-        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR
 
         backButton = findViewById(R.id.icon_back)
         toolbarTitle = findViewById(R.id.toolbar_title)
