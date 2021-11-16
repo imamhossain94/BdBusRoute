@@ -17,7 +17,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="5dp"
         app:cardBackgroundColor="#FFFFFF"
-        app:cardCornerRadius="8dp"
+        app:cardCornerRadius="10dp"
         app:cardElevation="15dp">
 
         <LinearLayout
@@ -46,8 +46,7 @@
                 android:importantForAutofill="no"
                 android:inputType="text"
                 android:paddingStart="15dp"
-                android:paddingEnd="5dp"
-                android:textSize="14sp" />
+                android:paddingEnd="5dp" />
 
 
             <Space
@@ -73,8 +72,7 @@
                 android:importantForAutofill="no"
                 android:inputType="text"
                 android:paddingStart="15dp"
-                android:paddingEnd="5dp"
-                android:textSize="14sp" />
+                android:paddingEnd="5dp"/>
         </LinearLayout>
 
 
@@ -85,7 +83,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:paddingTop="10dp"
-        android:paddingBottom="10dp"
+        android:paddingBottom="0dp"
         android:layout_weight="1" />
 
 </LinearLayout>
