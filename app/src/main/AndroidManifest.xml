@@ -10,8 +10,8 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@drawable/ic_launcher_round"
-        android:theme="@style/Theme.CustomSplashScreenTheme"
-        android:fullBackupContent="true">
+        android:theme="@style/Theme.CustomSplashScreenTheme">
+
         <activity
             android:name=".activity.BusDetails"
             android:theme="@style/Theme.Bd_bus_route"
