@@ -12,8 +12,6 @@ import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.AdView
 import com.jsibbold.zoomage.ZoomageView
 import com.newagedevs.bdbusroute.R
 import com.newagedevs.bdbusroute.adapters.RouteRecyclerViewAdapter
@@ -25,7 +23,6 @@ import com.orhanobut.hawk.Hawk
 class BusDetails : AppCompatActivity() {
 
     private var isFavourite:Boolean = false
-    lateinit var mAdView : AdView
     private lateinit var backButton:ImageView
     private lateinit var toolbarTitle:TextView
     private lateinit var heartButton:ImageView
@@ -41,11 +38,6 @@ class BusDetails : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_bus_details)
         Hawk.init(this).build()
-
-
-        mAdView = findViewById(R.id.adView)
-        val adRequest = AdRequest.Builder().build()
-        mAdView.loadAd(adRequest)
 
         backButton = findViewById(R.id.icon_back)
         toolbarTitle = findViewById(R.id.toolbar_title)
