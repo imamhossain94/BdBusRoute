@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorOnSecondary"
+    android:focusable="false"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="@drawable/square_round_red"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/source"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <AutoCompleteTextView
+                android:id="@+id/edit_text_source"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/edit_text_background"
+                android:hint="@string/enter_source_location"
+                android:imeOptions="actionSearch"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:paddingStart="15dp"
+                android:paddingEnd="5dp" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/destination"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <AutoCompleteTextView
+                android:id="@+id/edit_text_destination"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/edit_text_background"
+                android:hint="@string/enter_destination_location"
+                android:imeOptions="actionSearch"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:paddingStart="15dp"
+                android:paddingEnd="5dp"/>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_result_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

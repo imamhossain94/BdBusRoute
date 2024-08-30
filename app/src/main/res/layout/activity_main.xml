@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorOnSecondary"
+    android:orientation="vertical"
+    android:id="@+id/main">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:cardBackgroundColor="?attr/colorSecondary">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/square_round_red"
+                android:gravity="center"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/bd"
+                android:textColor="@color/color_white"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="start|center"
+                android:text="@string/bus_route"
+                android:textSize="22sp"
+                android:textStyle="bold|italic" />
+
+            <ImageView
+                android:id="@+id/icon_warning"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/button_background_transparent"
+                android:clickable="true"
+                android:contentDescription="@string/todo"
+                android:focusable="true"
+                android:padding="15dp"
+                android:src="@drawable/ic_warning" />
+
+            <ImageView
+                android:id="@+id/icon_rating"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/button_background_transparent"
+                android:clickable="true"
+                android:contentDescription="@string/todo"
+                android:focusable="true"
+                android:padding="15dp"
+                android:src="@drawable/ic_rating" />
+
+            <ImageView
+                android:id="@+id/icon_share"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/button_background_transparent"
+                android:clickable="true"
+                android:contentDescription="@string/todo"
+                android:focusable="true"
+                android:padding="15dp"
+                android:src="@drawable/ic_share" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <FrameLayout
+        android:id="@+id/home_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/home_bottom_navigation_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorSecondary"
+        app:itemIconTint="@color/bnv_tab_item_foreground"
+        app:itemTextColor="@color/bnv_tab_item_foreground"
+        app:menu="@menu/bottom_navigation" />
+
+
+</LinearLayout>

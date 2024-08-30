@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">BD Bus Route</string>
+
+    //base activity
+    <string name="todo">TODO</string>
+    <string name="menu">Menu</string>
+    <string name="favourite">Favourite</string>
+    <string name="route">Route</string>
+    <string name="buses">Buses</string>
+
+    <string name="app_version">v1.0.0</string>
+    <string name="about_apps">About Apps</string>
+    <string name="about_app">BD Bus Route let you help to find out all the names and routes of the bus service in Dhaka.</string>
+    <string name="version">Version</string>
+    <string name="information_of_the_development">Information of the development.</string>
+    <string name="about_development">About Development</string>
+    <string name="contact_with_the_app_developer">Contact with the app developer.</string>
+    <string name="contact">Contact</string>
+    <string name="any_suggestion_or_issue_please_mail_us">Any suggestion or issue? please mail us.</string>
+    <string name="feedback">Feedback</string>
+    <string name="try_some_more_interesting_apps">Try some more interesting apps.</string>
+    <string name="other_app">Other App</string>
+
+    <string name="please_give_a_rating_if_you_like_this_application">Please give a rating if you like this application</string>
+    <string name="share_app">Share App</string>
+    <string name="share_this_app_with_your_friends">Share this app with your friends</string>
+    <string name="rate_the_app">Rate The App</string>
+    <string name="rating_message">Your rating is too low. Please let us know how we can improve this app to meet your need.</string>
+    <string name="ui_designer">UI Designer:</string>
+    <string name="app_developer">Md. Imam Hossain</string>
+    <string name="app_developer_tag">App Developer:</string>
+    <string name="icon_used">https://www.svgrepo.com/</string>
+    <string name="icon_used_tag">Icon Used:</string>
+    <string name="bd">BD</string>
+    <string name="bus_route">Bus Route</string>
+    <string name="enter_bus_name">Enter bus name</string>
+    <string name="search_for_bus">Search for bus</string>
+    <string name="enter_source_location">Enter source location</string>
+    <string name="source">Source</string>
+    <string name="destination">Destination</string>
+    <string name="enter_destination_location">Enter destination location</string>
+    <string name="view_route_on_the_google_map">View route on the google map</string>
+    <string name="open_map">Open Map</string>
+    <string name="empty">Empty</string>
+    <string name="warning">Warning</string>
+    <string name="can_t_find_a_route">◉ Can\'t find a route?</string>
+    <string name="cant_find_a_route_answer">- There have some buses that are old or new in Dhaka city. If we failed to collect all the information correctly then you may not see a route.</string>
+    <string name="app_is_showing_wrong_route">◉ App is Showing wrong route?</string>
+    <string name="app_is_showing_wrong_route_message">- Sorry for that. Please help us by sending the correct route to the feedback mail.</string>
+    <string name="favourite_buses">Favourite Buses</string>
+</resources>

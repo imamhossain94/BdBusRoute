@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BDBusRoute" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_white</item>
+        <item name="colorPrimaryVariant">@color/color_white</item>
+        <item name="colorOnPrimary">@color/color_dark</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorOnSecondary">@color/color_background_white</item>
+        <item name="cardForegroundColor">#00223C</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">@color/color_white</item>
+        <item name="titleTextColor">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimary</item>
+        <item name="android:windowLightStatusBar">@color/black</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="Theme.BDBusRoute" parent="Base.Theme.BDBusRoute" />
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/color_dark</item>
+    </style>
+
+    <style name="Theme.AppTheme.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#FF485A</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
+        <item name="windowSplashScreenAnimationDuration">800</item>
+        <item name="postSplashScreenTheme">@style/Theme.BDBusRoute</item>
+    </style>
+
+</resources>
