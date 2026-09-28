@@ -11,7 +11,7 @@ android {
         applicationId = "com.newage.bdbusroute"
         minSdk = 26
         targetSdk = 34
-        versionCode = 6
+        versionCode = 28
         versionName = "1.1.2"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

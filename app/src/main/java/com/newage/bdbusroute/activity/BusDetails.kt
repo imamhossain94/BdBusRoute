@@ -72,8 +72,15 @@ class BusDetails : AppCompatActivity() {
             heartButton.setImageResource(R.drawable.ic_heart_stroke)
         }
 
-        if(busData.image.isNotEmpty())
-            Glide.with(this).load(busData.image).fitCenter().into(busImageView)
+        if (busData.image.isNotEmpty()) {
+            val imageUri = when {
+                busData.image.startsWith("file:///android_asset/") -> Uri.parse(busData.image)
+                busData.image.startsWith("http://") || busData.image.startsWith("https://") || busData.image.startsWith("file://") -> Uri.parse(busData.image)
+                busData.image.startsWith("buses-image/") -> Uri.parse("file:///android_asset/${busData.image}")
+                else -> Uri.parse("file:///android_asset/buses-image/${busData.image}")
+            }
+            Glide.with(this).load(imageUri).fitCenter().into(busImageView)
+        }
 
         sourceText.text = source
         destinationText.text = destination

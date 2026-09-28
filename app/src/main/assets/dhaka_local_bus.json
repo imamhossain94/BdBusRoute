@@ -3,7 +3,7 @@
     {
       "english": "Achim Paribahan",
       "bangle": "আছিম পরিবহন",
-      "image": "",
+      "image": "file:///android_asset/buses-image/আছিম পরিবহন.jpg",
       "routes": [
         "Gabtoli",
         "Technical",
@@ -39,7 +39,7 @@
     {
       "english": "Agradut",
       "bangle": "অগ্রদূত",
-      "image": "",
+      "image": "file:///android_asset/buses-image/অগ্রদূত.jpg",
       "routes": [
         "Savar",
         "Hemayetpur",
@@ -68,7 +68,7 @@
     {
       "english": "Airport Bangabandhu Avenue",
       "bangle": "এয়ারপোর্ট বঙ্গবন্ধু এভিনিউ ট্রান্সপোর্ট",
-      "image": "",
+      "image": "file:///android_asset/buses-image/এয়ারপোর্ট বঙ্গবন্ধু এভিনিউ ট্রান্.jpg",
       "routes": [
         "Fulbaria",
         "Golap Shah Mazar",
@@ -106,7 +106,7 @@
     {
       "english": "Azmeri Glory",
       "bangle": "আজমেরী গ্লোরী",
-      "image": "",
+      "image": "file:///android_asset/buses-image/আজমেরী গ্লোর.jpg",
       "routes": [
         "Sadarghat",
         "Ray Saheb Bazar",
@@ -148,7 +148,7 @@
     {
       "english": "Akash Enterprise",
       "bangle": "আকাশ বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/আকাশ বাস.jpg",
       "routes": [
         "Kadamtali",
         "Keraniganj",
@@ -189,7 +189,7 @@
     {
       "english": "Akik",
       "bangle": "আকিক বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/আকিক .jpg",
       "routes": [
         "Ansar Camp",
         "Mirpur 1",
@@ -217,7 +217,7 @@
     {
       "english": "Al Makka",
       "bangle": "আল মক্কা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/আল মক্কা বাস.jpg",
       "routes": [
         "Motijheel",
         "Gulistan",
@@ -246,7 +246,7 @@
     {
       "english": "Al Madina Plus One",
       "bangle": "আল মনিদা প্লাস ওয়ান",
-      "image": "",
+      "image": "file:///android_asset/buses-image/আল মনিদা প্লাস.jpg",
       "routes": [
         "Nandan Park",
         "Zirani Bazar",
@@ -281,7 +281,7 @@
     {
       "english": "Alif",
       "bangle": "আলিফ বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/আলিফ বাস.jpg",
       "routes": [
         "Mirpur 14",
         "Mirpur 10",
@@ -304,7 +304,7 @@
     {
       "english": "Alif",
       "bangle": "আলিফ বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/আলিফ বাস.jpg",
       "routes": [
         "Shia Mosque",
         "Japan Garden City",
@@ -330,7 +330,7 @@
     {
       "english": "Alif",
       "bangle": "আলিফ বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/আলিফ বাস.jpg",
       "routes": [
         "Mirpur 1",
         "Mirpur 2",
@@ -355,7 +355,7 @@
     {
       "english": "Alif",
       "bangle": "আলিফ বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/আলিফ বাস.jpg",
       "routes": [
         "Japan Garden City",
         "Ring Road",
@@ -390,7 +390,7 @@
     {
       "english": "Anabil Super",
       "bangle": "অনাবিল সুপার",
-      "image": "",
+      "image": "file:///android_asset/buses-image/অনাবিল.jpg",
       "routes": [
         "Sign Board",
         "Shonir Akhra",
@@ -433,7 +433,7 @@
     {
       "english": "Arnob",
       "bangle": "অরনব বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/অরনব বাস.jpg",
       "routes": [
         "Hemayetpur",
         "Amin Bazar",
@@ -462,7 +462,7 @@
     {
       "english": "Ashirbad Pahibahan",
       "bangle": "আশীর্বাদ পরিবহন",
-      "image": "",
+      "image": "file:///android_asset/buses-image/আশীর্বাদ পরিবহন.jpg",
       "routes": [
         "Duaripara",
         "Rupnagar Abashik",
@@ -492,7 +492,7 @@
     {
       "english": "Ashulia Classic",
       "bangle": "আশুলিয়া ক্লাসিক বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/আশুলিয়া ক্লাসিক বাস.jpg",
       "routes": [
         "Nobinagar",
         "Baipayl",
@@ -524,7 +524,7 @@
     {
       "english": "Asmani",
       "bangle": "আসমানী বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/আসমানী বাস.jpg",
       "routes": [
         "Dhour",
         "Abdullahpur",
@@ -557,7 +557,7 @@
     {
       "english": "ATCL",
       "bangle": "এটিসিএল বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/এটিসিএল বাস.jpg",
       "routes": [
         "Mohammadpur Bus Stand",
         "Asad Gate",
@@ -581,7 +581,7 @@
     {
       "english": "Ayat",
       "bangle": "আয়াত বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/আয়াত বাস.jpg",
       "routes": [
         "Chiriyakhana",
         "Sony Cinema Hall",
@@ -607,7 +607,7 @@
     {
       "english": "Bahon",
       "bangle": "বাহন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বাহন বাস.jpg",
       "routes": [
         "Mirpur 14",
         "Mirpur 10",
@@ -642,7 +642,7 @@
     {
       "english": "Baishakhi",
       "bangle": "বৈশাখী বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বৈশাখী বাস.jpg",
       "routes": [
         "Savar",
         "Hemayetpur",
@@ -668,7 +668,7 @@
     {
       "english": "Balaka",
       "bangle": "বলাকা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বলাকা বাস.jpg",
       "routes": [
         "Sayedabad",
         "Manik Nagar",
@@ -707,7 +707,7 @@
     {
       "english": "Basumati",
       "bangle": "বাসুমতি বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বাসুমতি বাস.jpg",
       "routes": [
         "Gabtoli",
         "Technical",
@@ -738,7 +738,7 @@
     {
       "english": "Basumati Transport",
       "bangle": "বাসুমতি ট্রান্সপোর্ট",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বাসুমতি বাস.jpg",
       "routes": [
         "Gabtoli",
         "Mirpur 1",
@@ -771,7 +771,7 @@
     {
       "english": "Best Satabdi AC",
       "bangle": "বেষ্ট শতাব্দী এসি বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বেষ্ট শতাব্দী এসি বাস.jpg",
       "routes": [
         "Azimpur",
         "Nilkhet",
@@ -806,7 +806,7 @@
     {
       "english": "Best Transport",
       "bangle": "বেষ্ট ট্রান্সপোর্ট বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বেষ্ট ট্রান্সপোর্ট.jpg",
       "routes": [
         "Mirpur 10",
         "Kazipara",
@@ -835,7 +835,7 @@
     {
       "english": "Bhuiyan Paribahan",
       "bangle": "ভূঁইয়া পরিবহন",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ভূঁইয়া পরিবহন.jpg",
       "routes": [
         "Japan Garden City",
         "Ring Road",
@@ -870,7 +870,7 @@
     {
       "english": "Bihanga",
       "bangle": "বিহাঙ্গা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বিহাঙ্গা বাস.jpg",
       "routes": [
         "Duaripara",
         "Pallabi",
@@ -902,7 +902,7 @@
     {
       "english": "Bikalpa Bus Auto Service",
       "bangle": "বিকল্প বাস অটো সার্ভিস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বিকল্প বাস অটো সার্ভিস.jpg",
       "routes": [
         "Mirpur 12",
         "Pallabi",
@@ -932,7 +932,7 @@
     {
       "english": "Bikalpa Bus City Super Service",
       "bangle": "বিকল্প বাস সিটি সুপার সার্ভিস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বিকল্প বাস সিটি সুপার সার্ভিস.jpeg",
       "routes": [
         "Mirpur 12",
         "Pallabi",
@@ -962,7 +962,7 @@
     {
       "english": "Bikash",
       "bangle": "বিকাশ বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বিকাশ বাস.jpg",
       "routes": [
         "Azimpur",
         "Nilkhet",
@@ -990,7 +990,7 @@
     {
       "english": "Bikash Paribahan",
       "bangle": "বিকাশ পরিবহন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বিকাশ বাস.jpg",
       "routes": [
         "Sign Board",
         "Matuail",
@@ -1036,7 +1036,7 @@
     {
       "english": "Bondhu Paribahan",
       "bangle": "বন্ধু পরিবহন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বন্ধু পরিবহন বাস.jpg",
       "routes": [
         "Gulistan",
         "GPO",
@@ -1061,7 +1061,7 @@
     {
       "english": "Borak",
       "bangle": "বোরাক বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বোরাক বাস.jpg",
       "routes": [
         "Palashi",
         "Meghna Ghat"
@@ -1072,7 +1072,7 @@
     {
       "english": "Bashumoti",
       "bangle": "বসুমতি বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বাসুমতি বাস.jpg",
       "routes": [
         "Gazipur Chourasta",
         "Tongi",
@@ -1090,7 +1090,7 @@
     {
       "english": "BRTC",
       "bangle": "বি আর টিসি বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বি আর টিসি বাস.jpg",
       "routes": [
         "Madanpur",
         "Kanchpur",
@@ -1129,7 +1129,7 @@
     {
       "english": "BRTC",
       "bangle": "বি আর টিসি বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বি আর টিসি বাস.jpg",
       "routes": [
         "Motijheel",
         "Gulistan",
@@ -1166,7 +1166,7 @@
     {
       "english": "BRTC",
       "bangle": "বি আর টিসি বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বি আর টিসি বাস.jpg",
       "routes": [
         "Motijheel",
         "Gulistan",
@@ -1199,7 +1199,7 @@
     {
       "english": "BRTC",
       "bangle": "বি আর টিসি বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বি আর টিসি বাস.jpg",
       "routes": [
         "Mohammadpur",
         "Asad Gate",
@@ -1225,7 +1225,7 @@
     {
       "english": "BRTC",
       "bangle": "বি আর টিসি বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বি আর টিসি বাস.jpg",
       "routes": [
         "Kamalapur",
         "Motijheel",
@@ -1259,7 +1259,7 @@
     {
       "english": "BRTC",
       "bangle": "বি আর টিসি বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বি আর টিসি বাস.jpg",
       "routes": [
         "Vulta",
         "Kanchan Bridge",
@@ -1274,7 +1274,7 @@
     {
       "english": "BRTC",
       "bangle": "বি আর টিসি বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বি আর টিসি বাস.jpg",
       "routes": [
         "Motijheel",
         "Gulistan",
@@ -1311,7 +1311,7 @@
     {
       "english": "BRTC",
       "bangle": "বি আর টিসি বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বি আর টিসি বাস.jpg",
       "routes": [
         "Mohammadpur",
         "Shankar",
@@ -1336,7 +1336,7 @@
     {
       "english": "BRTC",
       "bangle": "বি আর টিসি বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বি আর টিসি বাস.jpg",
       "routes": [
         "Gabtoli",
         "Mirpur 1",
@@ -1369,7 +1369,7 @@
     {
       "english": "BRTC Articulated",
       "bangle": "বি আর টিসি আরটিকুলেটেড বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/বি আর টিসি আরটিকুলেটেড বাস.jpg",
       "routes": [
         "Balughat",
         "Cantonment",
@@ -1387,7 +1387,7 @@
     {
       "english": "Cantonment",
       "bangle": "ক্যান্টনমেন্ট বাস সার্ভিস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ক্যান্টনমেন্ট বাস.jpg",
       "routes": [
         "Mirpur 14",
         "Mirpur 10",
@@ -1407,7 +1407,7 @@
     {
       "english": "Cantonment Mini Service",
       "bangle": "ক্যান্টনমেন্ট  মিনি বাস সার্ভিস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ক্যান্টনমেন্ট মিনি সার্ভিস.jpg",
       "routes": [
         "Mirpur 14",
         "Kachukhet",
@@ -1422,7 +1422,7 @@
     {
       "english": "Champion",
       "bangle": "চ্যাম্পিয়ন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/চ্যাম্পিয়ন বাস.jpg",
       "routes": [
         "Vashantek",
         "Mirpur 14",
@@ -1440,7 +1440,7 @@
     {
       "english": "City Link",
       "bangle": "সিটি লিংক বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/সিটি লিংক বাস.jpg",
       "routes": [
         "Chittagong Road",
         "Sign Board",
@@ -1473,7 +1473,7 @@
     {
       "english": "D Link",
       "bangle": "ডি লিংক বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ডি লিংক বাস.png",
       "routes": [
         "Fulbaria",
         "Chankhar Pul",
@@ -1504,7 +1504,7 @@
     {
       "english": "D One Transport",
       "bangle": "ডি ওয়ান বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ডি ওয়ান বাস.jpg",
       "routes": [
         "Motijheel",
         "Dainik Bangla Moor",
@@ -1534,7 +1534,7 @@
     {
       "english": "Deepan",
       "bangle": "দিপান বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/দীপন বাস.jpg",
       "routes": [
         "Tajmahal Road",
         "Shankar",
@@ -1555,7 +1555,7 @@
     {
       "english": "Desh Bangla",
       "bangle": "দেশ বাংলা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/দেশ বাংলা বাস.jpg",
       "routes": [
         "Postagola",
         "Dholairpar",
@@ -1592,7 +1592,7 @@
     {
       "english": "Dewan",
       "bangle": "দেওয়ান বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/দেওয়ান বাস.jpg",
       "routes": [
         "Azimpur",
         "Eden College",
@@ -1627,7 +1627,7 @@
     {
       "english": "Dhakar Chaka",
       "bangle": "ঢাকার চাকা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ঢাকার চাকা বাস.jpg",
       "routes": [
         "Police Plaza",
         "Gulshan 1",
@@ -1639,7 +1639,7 @@
     {
       "english": "Dhakar Chaka",
       "bangle": "ঢাকার চাকা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ঢাকার চাকা বাস.jpg",
       "routes": [
         "Banani",
         "Gulshan 2",
@@ -1651,7 +1651,7 @@
     {
       "english": "Dipon",
       "bangle": "দিপোন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/দীপন বাস.jpg",
       "routes": [
         "Tajmahal Road",
         "Salimullah Road",
@@ -1679,7 +1679,7 @@
     {
       "english": "Dip Paribahan",
       "bangle": "দ্বীপ পরিবহন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/দ্বীপ পরিবহন বাস.jpg",
       "routes": [
         "Azimpur",
         "City College",
@@ -1697,7 +1697,7 @@
     {
       "english": "Dishari",
       "bangle": "দিশারী বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/দিসারি বাস.jpg",
       "routes": [
         "Chiriyakhana",
         "Mirpur 1",
@@ -1729,7 +1729,7 @@
     {
       "english": "ETC",
       "bangle": "ইটিসি বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ইটিসি বাস.jpg",
       "routes": [
         "Golap Shah Mazar",
         "Shahbag",
@@ -1748,7 +1748,7 @@
     {
       "english": "ETC Transport",
       "bangle": "ইটিসি ট্রান্সপোর্ট বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ইটিসি বাস.jpg",
       "routes": [
         "Golap Shah Mazar",
         "GPO",
@@ -1777,7 +1777,7 @@
     {
       "english": "Everest Paribahan",
       "bangle": "এভারেস্ট পরিবহন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/এভারেস্ট পরিবহন বাস.jpg",
       "routes": [
         "Rupnagar Abashik",
         "Mirpur 2",
@@ -1792,7 +1792,7 @@
     {
       "english": "First Ten",
       "bangle": "ফার্স্ট টেন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ফার্স্ট টেন.jpg",
       "routes": [
         "Vashantek",
         "Mirpur 14",
@@ -1810,7 +1810,7 @@
     {
       "english": "FTCL",
       "bangle": "এফটিসিএল বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/এফটিসিএল বাস.jpg",
       "routes": [
         "Mohammadpur",
         "Shankar",
@@ -1841,7 +1841,7 @@
     {
       "english": "FTCL",
       "bangle": "এফটিসিএল বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/এফটিসিএল বাস.jpg",
       "routes": [
         "Mohammadpur",
         "Shankar",
@@ -1862,7 +1862,7 @@
     {
       "english": "Gazipur Paribahan",
       "bangle": "গাজীপুর পরিবহন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/গাজীপুর পরিবহন বাস.jpg",
       "routes": [
         "Motijheel",
         "Paltan",
@@ -1901,7 +1901,7 @@
     {
       "english": "Grameen",
       "bangle": "গ্রামীণ বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/গ্রামীণ বাস.jpg",
       "routes": [
         "Mirpur 14",
         "Mirpur 10",
@@ -1918,7 +1918,7 @@
     {
       "english": "Green Anabil",
       "bangle": "গ্রীন অনাবিল বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/গ্রীন অনাবিল বাস.jpg",
       "routes": [
         "Chashara",
         "Shibu Market",
@@ -1966,7 +1966,7 @@
     {
       "english": "Green Dhaka",
       "bangle": "গ্রীন ঢাকা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/গ্রীন ঢাকা বাস.jpg",
       "routes": [
         "Motijheel",
         "Gulistan",
@@ -2004,7 +2004,7 @@
     {
       "english": "Gulshan Chaka",
       "bangle": "গুলশান চাকা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/গুলশান চাকা বাস.jpg",
       "routes": [
         "Banani",
         "Gulshan 2",
@@ -2016,7 +2016,7 @@
     {
       "english": "Hazi Transport",
       "bangle": "হাজি ট্রান্সপোর্ট বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/হাজি ট্রান্সপোর্ট.jpg",
       "routes": [
         "Mirpur 12",
         "Pallabi",
@@ -2044,7 +2044,7 @@
     {
       "english": "Himachal",
       "bangle": "হিমাচল বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/হিমাচল বাস.jpg",
       "routes": [
         "Mirpur Sony Cinema Hall",
         "Mirpur 10",
@@ -2063,7 +2063,7 @@
     {
       "english": "Himachal Suveccha",
       "bangle": "হিমাচল শুভেচ্ছা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/হিমাচল বাস.jpg",
       "routes": [
         "Metro Hall",
         "Chashara",
@@ -2100,7 +2100,7 @@
     {
       "english": "Himalay",
       "bangle": "হিমালয় বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/হিমালয় বাস.jpg",
       "routes": [
         "Madanpur",
         "Jatrabari",
@@ -2114,7 +2114,7 @@
     {
       "english": "Itihash",
       "bangle": "ইতিহাস বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ইতিহাস বাস.jpg",
       "routes": [
         "Mirpur 14",
         "Mirpur 10",
@@ -2137,7 +2137,7 @@
     {
       "english": "Jabale Noor Paribahan",
       "bangle": "জাবালে নুর পরিবহন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/জাবালে নুর পরিবহন বাস.jpg",
       "routes": [
         "Agargaon",
         "Taltola",
@@ -2160,7 +2160,7 @@
     {
       "english": "Jabale Noor Paribahan",
       "bangle": "জাবালে নুর পরিবহন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/জাবালে নুর পরিবহন বাস.jpg",
       "routes": [
         "Gabtoli",
         "Mirpur 1",
@@ -2175,7 +2175,7 @@
     {
       "english": "Kamal Plus Paribahan",
       "bangle": "কামাল প্লাস পরিবহন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/কামাল প্লাস পরিবহন বাস.jpg",
       "routes": [
         "Chittagong Road",
         "Sign Board",
@@ -2205,7 +2205,7 @@
     {
       "english": "kanak",
       "bangle": "কনক বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/কনক বাস.jpg",
       "routes": [
         "Mirpur 1",
         "Sony Cinema Hall",
@@ -2231,7 +2231,7 @@
     {
       "english": "Khajababa",
       "bangle": "খাজা বাবা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/খাজা বাবা বাস.jpg",
       "routes": [
         "Jatrabari",
         "Sayedabad",
@@ -2262,7 +2262,7 @@
     {
       "english": "Kironmala Paribahan",
       "bangle": "কিরণমালা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/কিরণমালা বাস.jpg",
       "routes": [
         "Chiriyakhana",
         "Mirpur 1",
@@ -2283,7 +2283,7 @@
     {
       "english": "Labbayek",
       "bangle": "লাব্বাইক বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/লাব্বাইক বাস.jpg",
       "routes": [
         "Savar",
         "Hemayetpur",
@@ -2323,7 +2323,7 @@
     {
       "english": "Lal Sabuj",
       "bangle": "AC Bus Route",
-      "image": "",
+      "image": "file:///android_asset/buses-image/লাল সবুজ.jpg",
       "routes": [
         "Nandan Park",
         "Zirani Bazar",
@@ -2357,7 +2357,7 @@
     {
       "english": "Lams Paribahan",
       "bangle": "লামস পরিবহন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ল্যামস পরিবহন বাস.jpg",
       "routes": [
         "Mirpur 12",
         "Pallabi",
@@ -2386,7 +2386,7 @@
     {
       "english": "Malancha",
       "bangle": "মালঞ্চ বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/মালঞ্চ বাস.jpg",
       "routes": [
         "Mohammadpur",
         "Shankar",
@@ -2412,7 +2412,7 @@
     {
       "english": "Manjil Express",
       "bangle": "মাঞ্জিল এক্সপ্রেস বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/মাঞ্জিল এক্সপ্রেস.jpg",
       "routes": [
         "Chittagong Road",
         "Sign Board",
@@ -2452,7 +2452,7 @@
     {
       "english": "Meghla Transport",
       "bangle": "মেঘলা ট্রান্সপোর্ট বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/মেঘলা ট্রান্সপোর্ট.jpg",
       "routes": [
         "Kalabagan",
         "Science Lab",
@@ -2478,7 +2478,7 @@
     {
       "english": "Meshkat",
       "bangle": "মেসকাত বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/মেসকাত বাস.jpg",
       "routes": [
         "Mohammadpur",
         "Asad Gate",
@@ -2504,7 +2504,7 @@
     {
       "english": "Midline",
       "bangle": "মিডলাইন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/মিডলাইন বাস.jpg",
       "routes": [
         "Mohammadpur",
         "Shankar",
@@ -2532,7 +2532,7 @@
     {
       "english": "Mirpur Metro Services",
       "bangle": "মিরপুর মেট্রো সার্ভিস বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/মিরপুর মেট্রো সার্ভিস.jpg",
       "routes": [
         "Azimpur",
         "Nilkhet",
@@ -2560,7 +2560,7 @@
     {
       "english": "Mirpur Link",
       "bangle": "মিরপুর লিংক বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/মিরপুর লিংক বাস.jpg",
       "routes": [
         "ECB Square",
         "Purobi",
@@ -2581,7 +2581,7 @@
     {
       "english": "Mirpur Mission",
       "bangle": "মিরপুর মিশন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/মিরপুর মিশন বাস.jpg",
       "routes": [
         "Chiriyakhana",
         "Mirpur 1",
@@ -2596,7 +2596,7 @@
     {
       "english": "Mirpur United Service",
       "bangle": "মিরপুর ইউনাইটেড সার্ভিস বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/মিরপুর ইউনাইটেড সার্ভিস.jpg",
       "routes": [
         "Sadarghat",
         "- Ray Saheb Bazar",
@@ -2628,7 +2628,7 @@
     {
       "english": "MM Lovely",
       "bangle": "এম এম লাভলী বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/এম এম লাভলী বাস.jpg",
       "routes": [
         "Savar",
         "Hemayetpur",
@@ -2668,7 +2668,7 @@
     {
       "english": "Modhumita",
       "bangle": "মধুমিতা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/মধুমতি বাস.jpg",
       "routes": [
         "Chiriyakhana",
         "Sony Cinema Hall",
@@ -2697,7 +2697,7 @@
     {
       "english": "Mohona",
       "bangle": "মোহনা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/মোহনা বাস.jpg",
       "routes": [
         "Mirpur 14",
         "Mirpur 10",
@@ -2719,7 +2719,7 @@
     {
       "english": "Moitri",
       "bangle": "মৈত্রী বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/মৈত্রী বাস.jpg",
       "routes": [
         "Mohammadpur",
         "Shankar",
@@ -2745,7 +2745,7 @@
     {
       "english": "Moumita",
       "bangle": "মৌমিতা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/মৌমিতা বাস.jpg",
       "routes": [
         "Chashara",
         "Shibu Market",
@@ -2788,7 +2788,7 @@
     {
       "english": "MTCL-2",
       "bangle": "এমটিসিএল ২ বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/এমটিসিএল ২ বাস.jpg",
       "routes": [
         "Mohammadpur",
         "Asad Gate",
@@ -2815,7 +2815,7 @@
     {
       "english": "Nur E Makka",
       "bangle": "নূর এ মক্কা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/নূর এ মক্কা বাস.jpg",
       "routes": [
         "Chiriyakhana",
         "Sony Cinema Hall",
@@ -2849,7 +2849,7 @@
     {
       "english": "New Vision Dhaka",
       "bangle": "নিউ ভিশন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/নিউ ভিশন বাস.jpg",
       "routes": [
         "Chiriyakhana",
         "Mirpur 1",
@@ -2877,7 +2877,7 @@
     {
       "english": "Nilachol Dhaka",
       "bangle": "নিলাচল বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/নিলাচল বাস.jpg",
       "routes": [
         "Chittagong Road",
         "Sign Board",
@@ -2917,7 +2917,7 @@
     {
       "english": "Omama International",
       "bangle": "ওমামা ইন্টারন্যাশনাল বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ওমামা ইন্টারন্যাশনাল বাস.jpg",
       "routes": [
         "Motijheel",
         "Dainik Bangla Moor",
@@ -2948,7 +2948,7 @@
     {
       "english": "Pallabi Super",
       "bangle": "পল্লবী সুপার বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/পল্লবী সুপার.png",
       "routes": [
         "Gabtoli",
         "Technical",
@@ -2979,7 +2979,7 @@
     {
       "english": "Paristhan",
       "bangle": "পরিস্থান বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/পরিস্থান বাস.jpg",
       "routes": [
         "Bosila",
         "Mohammadpur",
@@ -3015,7 +3015,7 @@
     {
       "english": "Prattay",
       "bangle": "প্রত্যয় বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/প্রত্যয় বাস.jpg",
       "routes": [
         "Gabtoli",
         "Beribadh Tin Rastar Moor",
@@ -3034,7 +3034,7 @@
     {
       "english": "Prochesta",
       "bangle": "প্রচেষ্টা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/প্রচেষ্টা বাস.jpg",
       "routes": [
         "Maowa",
         "Keraniganj",
@@ -3075,7 +3075,7 @@
     {
       "english": "Projapati",
       "bangle": "প্রজাপতি বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/প্রজাপতি বাস.jpg",
       "routes": [
         "Bosila",
         "Mohammadpur",
@@ -3110,7 +3110,7 @@
     {
       "english": "Provati Banasree",
       "bangle": "প্রভাতী বনশ্রী বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/প্রভাতী বনশ্রী.jpg",
       "routes": [
         "Fulbaria",
         "Golap Shah Mazar",
@@ -3152,7 +3152,7 @@
     {
       "english": "Purbachol Logistics and Transport",
       "bangle": "পূর্বাচল লজিস্টিকস বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/পূর্বাচল লজিস্টিকস বাস.jpg",
       "routes": [
         "Vashantek",
         "Mirpur 14",
@@ -3177,7 +3177,7 @@
     {
       "english": "Raida Dhaka",
       "bangle": "রাইদা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/রাইদা বাস.jpg",
       "routes": [
         "Postagola",
         "Dholairpar",
@@ -3214,7 +3214,7 @@
     {
       "english": "Raja City Dhaka",
       "bangle": "রাজা সিটি বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/রাজা সিটি বাস.jpg",
       "routes": [
         "Postagola",
         "Jurain",
@@ -3242,7 +3242,7 @@
     {
       "english": "Rajanigandha Dhaka",
       "bangle": "রজনীগন্ধা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/রজনীগন্ধা বাস.jpg",
       "routes": [
         "Chittagong Road",
         "Sign Board",
@@ -3271,7 +3271,7 @@
     {
       "english": "Rajdhani Super Dhaka",
       "bangle": "রাজধানী বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/রাজধানী বাস.jpg",
       "routes": [
         "Hemayetpur",
         "Gabtoli",
@@ -3308,7 +3308,7 @@
     {
       "english": "Ramjan Dhaka",
       "bangle": "রমযান বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/রমযান বাস.jpg",
       "routes": [
         "Gabtoli",
         "Technical",
@@ -3344,7 +3344,7 @@
     {
       "english": "Robrob Dhaka",
       "bangle": "রবরব বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/রবরব বাস.jpg",
       "routes": [
         "Gabtoli",
         "Technical",
@@ -3371,7 +3371,7 @@
     {
       "english": "Rupa Paribahan Dhaka",
       "bangle": "রুপা পরিবহন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/রুপা পরিবহন বাস.jpg",
       "routes": [
         "Gabtoli",
         "Technical",
@@ -3389,7 +3389,7 @@
     {
       "english": "Safety Druti",
       "bangle": "সেফটি দ্রুতি বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/সেফটি দ্রুতি বাস.jpg",
       "routes": [
         "Mirpur 12",
         "Pallabi",
@@ -3415,7 +3415,7 @@
     {
       "english": "Sakalpa Transport",
       "bangle": "স্বকল্প ট্রান্সপোর্ট বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/স্বকল্প ট্রান্সপোর্ট.jpg",
       "routes": [
         "Chiriyakhana",
         "Mirpur 1",
@@ -3438,7 +3438,7 @@
     {
       "english": "Salsabil",
       "bangle": "ছালছাবিল বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ছালছাবিল বাস.jpg",
       "routes": [
         "Postagola",
         "Dholairpar",
@@ -3480,7 +3480,7 @@
     {
       "english": "Savar Paribahan",
       "bangle": "সাভার পরিবহন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/সাভার পরিবহন বাস.jpg",
       "routes": [
         "Sadarghat",
         "Golap Shah Mazar",
@@ -3515,7 +3515,7 @@
     {
       "english": "Shadhin",
       "bangle": "স্বাধীন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/স্বাধীন বাস.jpg",
       "routes": [
         "Bosila",
         "Mohammadpur",
@@ -3539,7 +3539,7 @@
     {
       "english": "Shadhin Express",
       "bangle": "স্বাধীন এক্সপ্রেস বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/স্বাধীন এক্সপ্রেস বাস.jpg",
       "routes": [
         "Mirpur 12",
         "Pallabi",
@@ -3573,7 +3573,7 @@
     {
       "english": "Shahria Enterprise",
       "bangle": "শাহরিয়া এন্টারপ্রাইজ বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/শাহরিয়া এন্টারপ্রাইজ বাস.jpg",
       "routes": [
         "Gabtoli",
         "Technical",
@@ -3608,7 +3608,7 @@
     {
       "english": "Shatabdi",
       "bangle": "শতাব্দি বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/শতাব্দি বাস.jpg",
       "routes": [
         "Motijheel",
         "Paltan",
@@ -3639,7 +3639,7 @@
     {
       "english": "Shikhor Paribahan",
       "bangle": "শিকড় পরিবহন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/শিকড় পরিবহন বাস.png",
       "routes": [
         "Mirpur 12",
         "Pallabi",
@@ -3670,7 +3670,7 @@
     {
       "english": "Shikhor Paribahan",
       "bangle": "শিকড় পরিবহন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/শিকড় পরিবহন বাস.png",
       "routes": [
         "Jatrabari",
         "Sayedabad",
@@ -3702,7 +3702,7 @@
     {
       "english": "Suveccha",
       "bangle": "শুভেচ্ছা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/শুভেচ্ছা বাস.jpg",
       "routes": [
         "Chittagong Road",
         "Sign Board",
@@ -3745,7 +3745,7 @@
     {
       "english": "Suvojatra Bus",
       "bangle": "শুভযাত্রা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/শুভযাত্রা বাস.jpg",
       "routes": [
         "Fulbaria",
         "Golap Shah Mazar",
@@ -3778,7 +3778,7 @@
     {
       "english": "Siam Transport",
       "bangle": "সিয়াম ট্রান্সপোর্ট বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/সিয়াম ট্রান্সপোর্ট বাস.jpg",
       "routes": [
         "Banasree",
         "Rampura Bridge",
@@ -3817,7 +3817,7 @@
     {
       "english": "Skyline",
       "bangle": "স্কাই লাইন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/স্কাই লাইন বাস.jpg",
       "routes": [
         "Sadarghat",
         "Ray Saheb Bazar",
@@ -3858,7 +3858,7 @@
     {
       "english": "Super",
       "bangle": "সুপার বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/সুপার বাস.jpg",
       "routes": [
         "Gulistan",
         "Shahbag",
@@ -3874,7 +3874,7 @@
     {
       "english": "Supravat",
       "bangle": "সুপ্রভাত বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/সুপ্রভাত বাস.jpg",
       "routes": [
         "Victoria Park",
         "Sadarghat",
@@ -3914,7 +3914,7 @@
     {
       "english": "Swajan Paribahan",
       "bangle": "স্বজন পরিবহন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/স্বজন পরিবহন বাস.jpg",
       "routes": [
         "Savar",
         "Hemayetpur",
@@ -3946,7 +3946,7 @@
     {
       "english": "Talukdar",
       "bangle": "তালুকদার বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/তালুকদার বাস.jpg",
       "routes": [
         "Chiriyakhana",
         "Mirpur 1",
@@ -3987,7 +3987,7 @@
     {
       "english": "Tanjil Paribahan",
       "bangle": "তানজিল পরিবহন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/তানজিল পরিবহন বাস.jpg",
       "routes": [
         "Chiriyakhana",
         "Mirpur 1",
@@ -4018,7 +4018,7 @@
     {
       "english": "Taranga Plus",
       "bangle": "তরঙ্গ প্লাস বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/তরঙ্গ প্লাস বাস.jpg",
       "routes": [
         "Mohammadpur Bus Stand",
         "Shankar",
@@ -4047,7 +4047,7 @@
     {
       "english": "Tetulia",
       "bangle": "তেতুলিয়া বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/তেতুলিয়া বাস.jpg",
       "routes": [
         "Shia Mosque",
         "Japan Garden City",
@@ -4079,7 +4079,7 @@
     {
       "english": "Thikana",
       "bangle": "ঠিকানা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ঠিকানা বাস.jpg",
       "routes": [
         "Sign Board",
         "Matuail",
@@ -4120,7 +4120,7 @@
     {
       "english": "Thikana Express",
       "bangle": "ঠিকানা এক্সপ্রেস বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ঠিকানা বাস.jpg",
       "routes": [
         "Shonbari Sreenagar",
         "Nimtola",
@@ -4164,7 +4164,7 @@
     {
       "english": "Titas",
       "bangle": "তিতাস বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/তিতাস বাস.jpg",
       "routes": [
         "Chiriyakhana",
         "Mirpur 1",
@@ -4178,7 +4178,7 @@
     {
       "english": "Transilva",
       "bangle": "ট্রান্সিল্ভা বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ট্রান্স সিলভা বাস.jpg",
       "routes": [
         "Mirpur 1",
         "Ansar Camp",
@@ -4210,7 +4210,7 @@
     {
       "english": "Trust Transport Services",
       "bangle": "ট্রাষ্ট ট্রান্সপোর্ট বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ট্রাষ্ট ট্রান্সপোর্ট বাস.jpg",
       "routes": [
         "Mirpur 10",
         "Mirpur 13",
@@ -4225,7 +4225,7 @@
     {
       "english": "Trust Transport Services",
       "bangle": "ট্রাষ্ট ট্রান্সপোর্ট বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ট্রাষ্ট ট্রান্সপোর্ট বাস.jpg",
       "routes": [
         "Mirpur 10",
         "Mirpur 13",
@@ -4245,7 +4245,7 @@
     {
       "english": "Trust Transport Services",
       "bangle": "ট্রাষ্ট ট্রান্সপোর্ট বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ট্রাষ্ট ট্রান্সপোর্ট বাস.jpg",
       "routes": [
         "Mirpur DOHS",
         "Kalshi",
@@ -4271,7 +4271,7 @@
     {
       "english": "Trust Transport Services",
       "bangle": "ট্রস্ট ট্রান্সপোর্ট বাস এসি",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ট্রাষ্ট ট্রান্সপোর্ট বাস এসি.jpg",
       "routes": [
         "Mirpur DOHS",
         "Kalshi",
@@ -4290,7 +4290,7 @@
     {
       "english": "Victor Classic",
       "bangle": "ভিক্টর ক্লাসিক বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ভিক্টর ক্লাসিক বাস.jpg",
       "routes": [
         "Sadarghat",
         "Ray Saheb Bazar",
@@ -4329,7 +4329,7 @@
     {
       "english": "Victor Paribahan",
       "bangle": "ভিক্টর পরিবহন বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ভিক্টর পরিবহন বাস.jpg",
       "routes": [
         "Sadarghat",
         "Ray Saheb Bazar",
@@ -4361,7 +4361,7 @@
     {
       "english": "VIP 27",
       "bangle": "ভিআইপি ২৭ বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ভিআইপি ২৭ বাস.jpg",
       "routes": [
         "Azimpur",
         "Nilkhet",
@@ -4392,7 +4392,7 @@
     {
       "english": "Welcome",
       "bangle": "ওয়েলকাম বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/ওয়েলকাম বাস.jpg",
       "routes": [
         "Nandan Park",
         "Zirani Bazar",
@@ -4426,7 +4426,7 @@
     {
       "english": "Winner",
       "bangle": "উইনার বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/উইনার বাস.jpg",
       "routes": [
         "Azimpur",
         "Eden College",
@@ -4459,7 +4459,7 @@
     {
       "english": "4 No. Alike Dhaka",
       "bangle": "৪নং বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/৪নং বাস.jpg",
       "routes": [
         "Balughat",
         "Signal",
@@ -4482,7 +4482,7 @@
     {
       "english": "6 No. Dhaka",
       "bangle": "৬নং বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/৬নং বাস.jpg",
       "routes": [
         "Kamalapur",
         "Motijheel",
@@ -4509,7 +4509,7 @@
     {
       "english": "6 No. Motijheel Banani Transport Dhaka",
       "bangle": "৬নং মতিঝিল বনানী ট্রান্সপোর্ট বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/৬নং বাস.jpg",
       "routes": [
         "Kamalapur",
         "Motijheel",
@@ -4536,7 +4536,7 @@
     {
       "english": "7 No. Dhaka",
       "bangle": "৭নং বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/৭নং বাস.jpg",
       "routes": [
         "Gabtoli",
         "Technical",
@@ -4567,7 +4567,7 @@
     {
       "english": "8 No. Dhaka",
       "bangle": "৮নং বাস",
-      "image": "",
+      "image": "file:///android_asset/buses-image/৮নং বাস.jpg",
       "routes": [
         "Jatrabari",
         "Janapath Moor",
@@ -4596,4 +4596,3 @@
     }
   ]
 }
-

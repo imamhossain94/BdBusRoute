@@ -16,6 +16,7 @@ import com.bumptech.glide.Glide
 import com.newage.bdbusroute.R
 import com.newage.bdbusroute.activity.BusDetails
 import com.newage.bdbusroute.models.BusData
+import android.net.Uri
 
 
 class BusRecyclerViewAdapter(
@@ -67,8 +68,15 @@ class BusRecyclerViewAdapter(
                 busRoute.justificationMode = JUSTIFICATION_MODE_INTER_WORD
             }
 
-            if(busData.image.isNotEmpty())
-                Glide.with(itemView).load(busData.image).fitCenter().into(busImage)
+            if (busData.image.isNotEmpty()) {
+                val imageUri = when {
+                    busData.image.startsWith("file:///android_asset/") -> Uri.parse(busData.image)
+                    busData.image.startsWith("http://") || busData.image.startsWith("https://") || busData.image.startsWith("file://") -> Uri.parse(busData.image)
+                    busData.image.startsWith("buses-image/") -> Uri.parse("file:///android_asset/${busData.image}")
+                    else -> Uri.parse("file:///android_asset/buses-image/${busData.image}")
+                }
+                Glide.with(itemView).load(imageUri).fitCenter().into(busImage)
+            }
 
         }
     }
